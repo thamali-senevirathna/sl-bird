@@ -117,7 +117,6 @@ a:hover {
     }
     .hero-title {
       font-size: 4rem;
-      font-family: cursive;
       font-weight: bold;
       color: #002c57;
       margin-bottom: 1rem;
@@ -163,6 +162,36 @@ a:hover {
       bottom: -150px;
       right: -150px;
     }
+    .hero-header {
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('https://img.freepik.com/free-photo/side-view-kid-holding-parrot_23-2150947716.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.breadcrumb {
+    background: none;
+    white-space: nowrap; 
+    overflow: hidden;    
+    text-overflow: ellipsis; 
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: rgba(255, 255, 255, 0.5);
+    content: " / "; 
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 1rem;
+}
+
+.breadcrumb-item.active {
+    color: #ccc; 
+    pointer-events: none; 
+}
 </style>
 <body>
    <!-- Topbar Start -->
@@ -204,69 +233,75 @@ a:hover {
 
   <!-- Navbar Start -->
   <nav
-  class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
-  data-wow-delay="0.1s"
->
-  <a href="index.html" class="navbar-brand p-0">
-    <img class="img-fluid me-3" src="/images/icon/icons-logo-bird-64.png" alt="Icon" />
-    <h1 class="m-0 text-primary">Bird SL</h1>
-  </a>
-  <button
-    type="button"
-    class="navbar-toggler"
-    data-bs-toggle="collapse"
-    data-bs-target="#navbarCollapse"
+    class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+    data-wow-delay="0.1s"
   >
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
-    <div class="navbar-nav ms-auto">
-      <a href="/index.html" class="nav-item nav-link active">Home</a>
-      <a href="/sub-pages/aboutus.html" class="nav-item nav-link">About Us</a>
-      <a href="service.html" class="nav-item nav-link">Guides</a>
-      <div class="nav-item dropdown">
-        <a
-          href="#"
-          class="nav-link dropdown-toggle"
-          data-bs-toggle="dropdown"
-          >Pages</a
-        >
-        <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-          <a href="animal.html" class="dropdown-item">Our Animals</a>
-          <a href="/sub-pages/conservation.html" class="dropdown-item">Conservation</a>
-          <a href="/sub-pages/species.html" class="dropdown-item">Special</a>
-          <a href="/sub-pages/" class="dropdown-item">Testimonial</a>
-          <a href="/sub-pages/destination.html" class="dropdown-item">Destination</a>
+    <a href="index.html" class="navbar-brand p-0">
+      <img class="img-fluid me-3" src="/images/icon/icons-logo-bird-64.png" alt="Icon" />
+      <h1 class="m-0 text-primary">Bird SL</h1>
+    </a>
+    <button
+      type="button"
+      class="navbar-toggler"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+      <div class="navbar-nav ms-auto">
+        <a href="/index.html" class="nav-item nav-link">Home</a>
+        <a href="/sub-pages/aboutus.html" class="nav-item nav-link 
+        
+        
+        "
+        
+        >About Us</a>
+        <a href="/sub-pages/guide.html" class="nav-item nav-link">Guides</a>
+        <div class="nav-item dropdown">
+          <a
+            href="#"
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            >Pages</a
+          >
+          <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+            <a href="/sub-pages/conservation.html" class="dropdown-item active
+            
+            ">Conservation</a>
+            <a href="/sub-pages/recervation.html"class="dropdown-item">Reservation
+              
+            </a>
+            <a href="/sub-pages/testimonial.html" class="dropdown-item">Testimonial</a>
+            <a href="/sub-pages/destination.html" class="dropdown-item">Destination</a>
+          </div>
         </div>
+        <a href="/sub-pages/gallery.html" class="nav-item nav-link">Gallery</a>
+        <a href="/sub-pages/contactus.html" class="nav-item nav-link">Contact Us</a>
       </div>
-      <a href="/sub-pages/gallery.html" class="nav-item nav-link">Gallery</a>
-      <a href="/sub-pages/contactus.html" class="nav-item nav-link">Contact Us</a>
+      <a href="" class="btn btn-primary rounded-0"
+        >Buy Ticket<i class="fa fa-arrow-right ms-3"></i
+      ></a>
     </div>
-    <a href="" class="btn btn-primary rounded-0"
-      >Buy Ticket<i class="fa fa-arrow-right ms-3"></i
-    ></a>
-  </div>
-</nav>
+  </nav>
   <!-- Navbar End -->
    
-   <!-- Hero Start -->
-   <div class="container-fluid hero-section">
-    <!-- Circle Decorations -->
+    <!-- Hero Start -->
+   <!-- <div class="container-fluid hero-section">
     <div class="circle-decoration circle-1"></div>
     <div class="circle-decoration circle-2"></div>
     
     <div class="container">
       <div class="row align-items-center">
-        <!-- Text Section -->
         <div class="col-md-6 hero-content">
-          <h1 class="hero-title">Conservation</h1>
+          <h1 class="hero-title">Testimonial</h1>
           <p class="hero-text">
             We are a team driven by passion and innovation, committed to providing exceptional services. 
             Our journey is fueled by creativity and the desire to make a meaningful impact.
           </p>
+         
           <button class="hero-button">Explore More</button>
         </div>
-        <!-- Image Section -->
         <div class="col-md-6 d-flex justify-content-center">
           <div class="hero-image">
             <img src="/images/hero-img.png" alt="hero-img">
@@ -274,7 +309,27 @@ a:hover {
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+  <div class="container-fluid position-relative p-0">
+    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div class="container py-5">
+            <div class="row justify-content-center py-5">
+                <div class="col-lg-10 col-md-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-3 text-white fw-semibold">Conservation</h1>
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb justify-content-center">
+                          <li class="breadcrumb-item"><a href="#" class="text-primary">Home</a></li>
+                          <li class="breadcrumb-item"><a href="#"  class="text-primary">Pages</a></li>
+                          <li class="breadcrumb-item text-white active" aria-current="page">Conservation</li>
+                      </ol>
+                  </nav>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
   <!-- Hero End -->
 
     <!-- Conservation Status -->

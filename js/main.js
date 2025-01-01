@@ -245,23 +245,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
 })(jQuery);
 
-// Destination navigate
-document.addEventListener('DOMContentLoaded', () => {
-    const destinations = [
-        { id: 'destination1', url: '/sub-pages/aboutus.html' },
-        { id: 'destination2', url: '/sub-pages/conservation.html' },
-        // Add other destinations here with proper URLs
-    ];
 
-    destinations.forEach(destination => {
-        const element = document.getElementById(destination.id);
-        if (element) {
-            element.addEventListener('click', () => {
-                window.location.href = destination.url;
-            });
-        }
-    });
-});
 $(document).ready(function(){
     $(".fancybox").fancybox({
           openEffect: "none",
@@ -277,3 +261,27 @@ $(document).ready(function(){
       });
   });
       
+
+  // Include these scripts at the bottom of the HTML or in a separate JS file
+document.addEventListener('DOMContentLoaded', function () {
+    // Initialize the date pickers
+    new tempusDominus.TempusDominus(document.getElementById('checkin-picker'), {
+        display: {
+            viewMode: 'calendar',
+            components: {
+                calendar: true,
+                clock: false
+            }
+        }
+    });
+
+    new tempusDominus.TempusDominus(document.getElementById('checkout-picker'), {
+        display: {
+            viewMode: 'calendar',
+            components: {
+                calendar: true,
+                clock: false
+            }
+        }
+    });
+});

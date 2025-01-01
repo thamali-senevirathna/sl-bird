@@ -12,96 +12,7 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <style>
-    .bg-grey {
-        background: #292929;
-     }
-     .logo-footer {
-        margin-bottom: 40px;
-     }
-     footer {
-            color: grey;
-     }
-     footer p, a {
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
-}
-footer h6 {
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 40px;
-    position: relative;
-}
-footer h6:after {
-    position: absolute;
-    content: "";
-    background: grey;
-    width: 12%;
-    height: 1px;
-    left: 0;
-    bottom: -20px;
-}
-     .btn-footer {
-                 color: grey;
-              
-                text-decoration: none;
-                border: 1px solid;
-                border-radius: 43px;
-                font-size: 13px;
-                padding: 7px 30px;
-                line-height: 47px;
-     }
-     .btn-footer:hover {
-                
-                text-decoration: none;
-               
-     }
-    .form-footer input[type="text"] {
-        border: none;
-    border-radius: 16px 0 0 16px;
-    outline: none;
-    padding-left: 10px;
     
-}
-::placeholder {
-    font-size: 10px;
-    padding-left: 10px;
-    font-style: italic;
-}
- .form-footer input[type="button"] {
-    border: none;
-    background:#232323;
-        margin-left: -5px;
-    color: #fff;
-    outline: none;
-    border-radius: 0 16px 16px 0;
-    padding: 2px 12px;
-}
-     .social .fa {
-    color: grey;
-    font-size: 22px;
-    padding: 10px 15px;
-    background: #3c3c3c;
-}
-     footer ul li {
-    list-style: none;
-    display: block;
-}
-  footer ul  {
-   padding-left: 0;
-}
-footer ul  li a{
-  text-decoration: none;
-  color: grey;
-  text-decoration:none;
-}
-a:hover {
-    text-decoration: none;
-    color: #f5f5f5 !important;
-    
-}
-.logo-part {
-    border-right: 1px solid grey;
-    height: 100%;
-    }
      /* hero */
      .hero-section {
     background-color: #d6f0ff74;
@@ -117,7 +28,6 @@ a:hover {
     }
     .hero-title {
       font-size: 4rem;
-      font-family: cursive;
       font-weight: bold;
       color: #002c57;
       margin-bottom: 1rem;
@@ -163,6 +73,7 @@ a:hover {
       bottom: -150px;
       right: -150px;
     }
+   
 </style>
 <body>
   <!-- Topbar Start -->
@@ -221,9 +132,14 @@ a:hover {
     </button>
     <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
       <div class="navbar-nav ms-auto">
-        <a href="/index.html" class="nav-item nav-link active">Home</a>
-        <a href="/sub-pages/aboutus.html" class="nav-item nav-link">About Us</a>
-        <a href="service.html" class="nav-item nav-link">Guides</a>
+        <a href="/index.html" class="nav-item nav-link">Home</a>
+        <a href="/sub-pages/aboutus.html" class="nav-item nav-link active
+        
+        
+        "
+        
+        >About Us</a>
+        <a href="/sub-pages/guide.html" class="nav-item nav-link">Guides</a>
         <div class="nav-item dropdown">
           <a
             href="#"
@@ -232,9 +148,10 @@ a:hover {
             >Pages</a
           >
           <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-            <a href="animal.html" class="dropdown-item">Our Animals</a>
             <a href="/sub-pages/conservation.html" class="dropdown-item">Conservation</a>
-            <a href="/sub-pages/species.html" class="dropdown-item">Special</a>
+            <a href="/sub-pages/recervation.html"class="dropdown-item">Reservation
+              
+            </a>
             <a href="/sub-pages/testimonial.html" class="dropdown-item">Testimonial</a>
             <a href="/sub-pages/destination.html" class="dropdown-item">Destination</a>
           </div>
@@ -249,51 +166,80 @@ a:hover {
   </nav>
   <!-- Navbar End -->
 
- <!-- Hero Start -->
- <div class="container-fluid hero-section">
-  <!-- Circle Decorations -->
-  <div class="circle-decoration circle-1"></div>
-  <div class="circle-decoration circle-2"></div>
-  
+   <!-- Hero Start -->
+  <div class="container-fluid position-relative p-0">
+    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div class="container py-5">
+            <div class="row justify-content-center py-5">
+                <div class="col-lg-10 col-md-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-3 text-white fw-semibold">About Us</h1>
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb justify-content-center">
+                          <li class="breadcrumb-item"><a href="#" class="text-primary">Home</a></li>
+                          <li class="breadcrumb-item"><a href="#"  class="text-primary">Pages</a></li>
+                          <li class="breadcrumb-item text-white active" aria-current="page">About US</li>
+                      </ol>
+                  </nav>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- Hero End -->
+
+  <!-- Organization Start -->
+<section class=" ftco-section ftco-about ftco-no-pt img">
   <div class="container">
-    <div class="row align-items-center">
-      <!-- Text Section -->
-      <div class="col-md-6 hero-content">
-        <h1 class="hero-title">About Us</h1>
-        <p class="hero-text">
-          We are a team driven by passion and innovation, committed to providing exceptional services. 
-          Our journey is fueled by creativity and the desire to make a meaningful impact.
-        </p>
-        <button class="hero-button">Explore More</button>
-      </div>
-      <!-- Image Section -->
-      <div class="col-md-6 d-flex justify-content-center">
-        <div class="hero-image">
-          <img src="/images/hero-img.png" alt="hero-img">
+   <div class="row d-flex">
+    <div class="col-md-12 about-intro">
+     <div class="row">
+      <div class="col-md-6 d-flex align-items-stretch">
+       <div class="img d-flex w-100 align-items-center justify-content-center" style="background-image:url(https://images.pexels.com/photos/7041947/pexels-photo-7041947.jpeg?auto=compress&cs=tinysrgb&w=600);">
+       </div>
+     </div>
+     <div class="col-md-6 pl-md-5 py-5">
+       <div class="row justify-content-start pb-3">
+         <div class="col-md-12 heading-section ftco-animate">
+          <span class="subheading">The Organization</span>
+          <h2 class="mb-4">15+ Years of Expert Cultural, Wildlife, Nature Tours in Sri Lanka</h2>
+          <p class="text-secondary">Walk With Jith is a Sri Lankan tour operator with over 15 years of experience, offering cultural, birdwatching, wildlife, nature photography, honeymoon, and custom tours. Led by Jith (Prasanjith Caldera), a renowned trekker and guide, the team includes licensed birding, wildlife, and cultural experts. 
+
+            Committed to sustainable tourism, Walk With Jith ensures reasonable rates, directly benefiting local communities and supporting bird habitat conservation. Tours provide immersive experiences with villagers, showcasing authentic Sri Lankan culture. 
+            
+            A member of Field Ornithology Group, ResponsibleTravel.com, and Blue Sky Wildlife, Walk With Jith offers free travel tips and wildlife insights to global travelers.</p>
+          <p><a href="/sub-pages/destination.html" class="btn btn-primary rounded-0">Book Your Destination</a></p>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Hero End -->
+ </div>
+ </div>
+ </div>
+ </section>
+<!-- Organization End -->
+
+
 
   <!-- About Start -->
-  <section class="bg-light">
+  <section>
     <div class="container-xxl py-5">
         <div class="container">
           <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <p><span class="text-primary me-2" >#</span>Welcome To SL Birds Park</p>
-              <h1 class="display-5 mb-4" style="font-family: cursive;">
-                Why You Should Visit
+              <p><span class="text-primary me-2" >#</span>Founder, Walk With Jith</p>
+              <h1 class="display-5 mb-4 fw-semibold">
+                Managing Director / Director Operations
                 <span class="text-primary">SL Bird</span> Park!
               </h1>
-              <p class="mb-4">
-                Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No
-                stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo
-                nonumy clita sit at, sed sit sanctus dolor eos.
+              <p class="mb-4 fw-bold display-6 text-dark-emphasis">
+                Prasanjith Caldera
               </p>
-              <h5 class="mb-3">
+              <p class="mb-4 text-secondary">
+                Prasanjith, the founder of *Walk With Jith*, is a seasoned trekker and nature enthusiast with a diverse career. He holds a Tourist Guide License from the Sri Lanka Tourist Board and is a member of the Field Ornithology Group of Sri Lanka. Formerly a Lieutenant in the Sri Lanka Navy, he later studied Wildlife Conservation and worked with scientific agencies. Prasanjith has contributed to bird research in Sri Lanka, including field studies in the Sinharaja Rainforest. He also co-composed the "Sounds of Sinharaja" audio CD and is a cricket umpire in his free time.
+              </p>
+              <!-- <h5 class="mb-3">
                 <i class="far fa-check-circle text-primary me-3"></i>Free Car
                 Parking
               </h5>
@@ -309,16 +255,119 @@ a:hover {
                 <i class="far fa-check-circle text-primary me-3"></i>World Best
                 Animals
               </h5>
-              <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+              <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a> -->
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
               <div class="img-border">
-                <img class="img-fluid" src="/images/Serendib-Scops-Owl.jpg" alt="" />
+                <img class="img-fluid" src="https://www.walkwithjith.com/sites/default/files/gbb-uploads/prasanjith-caldera-adjusted-1--edited.jpg" alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
+</section>
+<section >
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="img-border">
+            <img class="img-fluid" src="https://www.walkwithjith.com/sites/default/files/gbb-uploads/Eben-and-Uromi-Goodale.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <p><span class="text-primary me-2" >#</span>
+            Scientific Advisors
+            </p>
+          <p class="mb-4 fw-bold display-6 text-dark-emphasis">
+            Dr. Eben and Dr. Uromi Goodale
+          </p>
+          <p class="mb-4 text-secondary">
+            Eben and Uromi Goodale have worked closely with Prasanjith for many years as scientific program advisors. Currently living in China with their son, David Parakrama Goodale, they bring extensive expertise in ecology and botany.
+
+            Uromi holds a Bachelor's in Botany from the University of Colombo, a Masters in Forest Science from Yale University, and a Ph.D. in ecophysiology. She is a Postdoctoral Scholar at Xishuangbanna Tropical Botanical Garden, focusing on seed biology and tropical Asian flora.
+            
+            Eben, with a Bachelor's from Harvard and a Ph.D. from the University of Massachusetts, is an Associate Professor at XTBG. His research centers on bird behavior, community ecology, and conservation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section >
+  <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <p><span class="text-primary me-2" >#</span>Webmaster and Promoter</p>
+            <p class="mb-4 fw-bold display-6 text-dark-emphasis">
+              Lalith Manage            </p>
+            <p class="mb-4 text-secondary">
+              Lalith works as a consultant for Walk With Jith. He is Walk With Jith's web master, advertiser, concept builder and promoter.
+
+              After studying biology in the University of Colombo and studying Painting in the Vibhavi Academy of Fine Arts he moved in to web developing and computer graphics. Being an artists, he is associated to Theertha International Artists Collective, Sri Lanka. At present he is a visiting lecturer in Visual Art at the University of Moratuwa.
+              
+              Laith is practicing martial artist starting first in 1989 and specialize s in Jeet Kune Do. Being certified in guidance &counseling Lalith has an understanding of business psychology and counseling philosophy. When he is not pecking the keyboard, he plays his GG eastern flute...
+              
+            </p>
+            <!-- <h5 class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Free Car
+              Parking
+            </h5>
+            <h5 class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Natural
+              Environment
+            </h5>
+            <h5 class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Professional
+              Guide & Security
+            </h5>
+            <h5 class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>World Best
+              Animals
+            </h5>
+            <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a> -->
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="img-border">
+              <img class="img-fluid" src="https://www.walkwithjith.com/sites/default/files/gbb-uploads/Lalith-Manage.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<section>
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="img-border">
+            <img class="img-fluid" src="https://www.walkwithjith.com/sites/default/files/guides/Dinitha-and-Prasanjith-at-the-stall-2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <p><span class="text-primary me-2" >#</span>
+            Intern, Wild life tour organizer and nature guide            </p>
+          <p class="mb-4 fw-bold display-6 text-dark-emphasis">
+            Dinitha Caldera
+          </p>
+          <p class="mb-4 text-secondary">
+    
+
+Dinitha’s first involvement with Walk With Jith was to pose for a photo with his binoculars for the birds of Sinharaja Rain Forest conservation poster. He was probably 5 years old. Since early childhood he had travelled extensively in Sri Lanka visiting all the major wildlife and nature sites. His interest fell on indigenous medicine used especially in forests and wildlife expeditions; the connection between humans, animals and plants in illness and cure. 
+
+Dinitha was a member of the Field Ornithology Group of Sri Lanka and Young Zoologists Association at the Sri Lankan National Zoo. He was a leading member for the Nature Club of Lyceum International College. 
+
+Dinitha has participated in the past 3 years at the British Birdfair in Rutland, at the Walk With Jith’s stall.
+
+Photo: Dinitha Caldera with Prasanjith - Photo by Alistair and Carol McLee
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <!-- About End -->
 

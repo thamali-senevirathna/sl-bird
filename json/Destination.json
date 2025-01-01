@@ -1,0 +1,195 @@
+[
+    {
+        "section-title": "Location",
+      "location-title": "Kitulgala Rain Forest",
+      "url": "index.html",
+      "description": "Welcome to our destination page.",
+      "birds-images":[
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_NGwZSpDWwZVj7jl471UynIf0BJ57gxPcA&s",
+          "alt": "Image 1",
+          "modalTarget": "#imageModal1"
+        },
+        {
+          "src": "https://images.pexels.com/photos/4567894/pexels-photo-4567894.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "alt": "Image 2",
+          "modalTarget": "#imageModal2"
+        },
+        {
+          "src": "https://media-cdn.tripadvisor.com/media/photo-s/1b/42/02/db/the-sri-lanka-spurfowl.jpg",
+          "alt": "Image 3",
+          "modalTarget": "#imageModal3"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ebTxtw1osTBEQhJbUn-xRSdH6RWEKU-kqg&s",
+          "alt": "Image 4",
+          "modalTarget": "#imageModal4"
+        },
+        {
+          "src": "https://live.staticflickr.com/65535/54016605899_e3008af9f2_h.jpg",
+          "alt": "Image 5",
+          "modalTarget": "#imageModal5"
+        },
+        {
+          "src": "https://ceylonwildtours.com/wp-content/uploads/2022/01/Red-faced-Malkoha-is-in-its-Habitats.png",
+          "alt": "Image 6",
+          "modalTarget": "#imageModal6"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/8W0A7974.jpg/220px-8W0A7974.jpg",
+          "alt": "Image 7",
+          "modalTarget": "#imageModal7"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lesser_yellownape_Ghatgarh%2C_Uttarakhand%2C_India_06.10.2014.jpg",
+          "alt": "Image 8",
+          "modalTarget": "#imageModal8"
+        }
+      ]
+    },
+    {
+        "section-title": "Location",
+      "location-title": "Sigiriya Sanctuary",
+      "url": "about.html",
+      "description": "Learn more about us.",
+       "birds-images":[
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_NGwZSpDWwZVj7jl471UynIf0BJ57gxPcA&s",
+          "alt": "Image 1",
+          "modalTarget": "#imageModal1"
+        },
+        {
+          "src": "https://images.pexels.com/photos/4567894/pexels-photo-4567894.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "alt": "Image 2",
+          "modalTarget": "#imageModal2"
+        },
+        {
+          "src": "https://media-cdn.tripadvisor.com/media/photo-s/1b/42/02/db/the-sri-lanka-spurfowl.jpg",
+          "alt": "Image 3",
+          "modalTarget": "#imageModal3"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ebTxtw1osTBEQhJbUn-xRSdH6RWEKU-kqg&s",
+          "alt": "Image 4",
+          "modalTarget": "#imageModal4"
+        },
+        {
+          "src": "https://live.staticflickr.com/65535/54016605899_e3008af9f2_h.jpg",
+          "alt": "Image 5",
+          "modalTarget": "#imageModal5"
+        },
+        {
+          "src": "https://ceylonwildtours.com/wp-content/uploads/2022/01/Red-faced-Malkoha-is-in-its-Habitats.png",
+          "alt": "Image 6",
+          "modalTarget": "#imageModal6"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/8W0A7974.jpg/220px-8W0A7974.jpg",
+          "alt": "Image 7",
+          "modalTarget": "#imageModal7"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lesser_yellownape_Ghatgarh%2C_Uttarakhand%2C_India_06.10.2014.jpg",
+          "alt": "Image 8",
+          "modalTarget": "#imageModal8"
+        }
+      ]
+    },
+    {
+        "section-title": "Location",
+      "location-title": "Udawatta Kele Forest Reserve",
+      "url": "destinations.html",
+      "description": "Explore our exciting destinations.",
+       "birds-images":[
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_NGwZSpDWwZVj7jl471UynIf0BJ57gxPcA&s",
+          "alt": "Image 1",
+          "modalTarget": "#imageModal1"
+        },
+        {
+          "src": "https://images.pexels.com/photos/4567894/pexels-photo-4567894.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "alt": "Image 2",
+          "modalTarget": "#imageModal2"
+        },
+        {
+          "src": "https://media-cdn.tripadvisor.com/media/photo-s/1b/42/02/db/the-sri-lanka-spurfowl.jpg",
+          "alt": "Image 3",
+          "modalTarget": "#imageModal3"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ebTxtw1osTBEQhJbUn-xRSdH6RWEKU-kqg&s",
+          "alt": "Image 4",
+          "modalTarget": "#imageModal4"
+        },
+        {
+          "src": "https://live.staticflickr.com/65535/54016605899_e3008af9f2_h.jpg",
+          "alt": "Image 5",
+          "modalTarget": "#imageModal5"
+        },
+        {
+          "src": "https://ceylonwildtours.com/wp-content/uploads/2022/01/Red-faced-Malkoha-is-in-its-Habitats.png",
+          "alt": "Image 6",
+          "modalTarget": "#imageModal6"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/8W0A7974.jpg/220px-8W0A7974.jpg",
+          "alt": "Image 7",
+          "modalTarget": "#imageModal7"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lesser_yellownape_Ghatgarh%2C_Uttarakhand%2C_India_06.10.2014.jpg",
+          "alt": "Image 8",
+          "modalTarget": "#imageModal8"
+        }
+      ]
+    },
+    {
+        "section-title": "Location",
+      "location-title": "Horten Plains",
+      "url": "contact.html",
+      "description": "Get in touch with us.",
+       "birds-images":[
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_NGwZSpDWwZVj7jl471UynIf0BJ57gxPcA&s",
+          "alt": "Image 1",
+          "modalTarget": "#imageModal1"
+        },
+        {
+          "src": "https://images.pexels.com/photos/4567894/pexels-photo-4567894.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "alt": "Image 2",
+          "modalTarget": "#imageModal2"
+        },
+        {
+          "src": "https://media-cdn.tripadvisor.com/media/photo-s/1b/42/02/db/the-sri-lanka-spurfowl.jpg",
+          "alt": "Image 3",
+          "modalTarget": "#imageModal3"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ebTxtw1osTBEQhJbUn-xRSdH6RWEKU-kqg&s",
+          "alt": "Image 4",
+          "modalTarget": "#imageModal4"
+        },
+        {
+          "src": "https://live.staticflickr.com/65535/54016605899_e3008af9f2_h.jpg",
+          "alt": "Image 5",
+          "modalTarget": "#imageModal5"
+        },
+        {
+          "src": "https://ceylonwildtours.com/wp-content/uploads/2022/01/Red-faced-Malkoha-is-in-its-Habitats.png",
+          "alt": "Image 6",
+          "modalTarget": "#imageModal6"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/8W0A7974.jpg/220px-8W0A7974.jpg",
+          "alt": "Image 7",
+          "modalTarget": "#imageModal7"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lesser_yellownape_Ghatgarh%2C_Uttarakhand%2C_India_06.10.2014.jpg",
+          "alt": "Image 8",
+          "modalTarget": "#imageModal8"
+        }
+      ]
+    }
+  ]
+  
