@@ -434,49 +434,53 @@
     <div class="container mt-5">
       <div class="row">
         <script>
-          const images = [
-            {
-              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_NGwZSpDWwZVj7jl471UynIf0BJ57gxPcA&s",
+         const images = [
+         {
+              src: "https://i0.wp.com/amazinglanka.com/wp/wp-content/uploads/2015/05/13541846865_7db17ea4d2_o.jpg",
               alt: "Image 1",
               modalTarget: "#imageModal1"
             },
             {
-              src: "https://images.pexels.com/photos/4567894/pexels-photo-4567894.jpeg?auto=compress&cs=tinysrgb&w=600",
-              alt: "Image 2",
+              src: "https://s3.animalia.bio/animals/photos/full/1.25x1/common-kingfisher.webp?id=db36d433e675af474869a39c7d70c4e5", alt: "Image 2",
               modalTarget: "#imageModal2"
             },
             {
-              src: "https://media-cdn.tripadvisor.com/media/photo-s/1b/42/02/db/the-sri-lanka-spurfowl.jpg",
-              alt: "Image 3",
+              src: "https://inaturalist-open-data.s3.amazonaws.com/photos/6061229/large.jpeg", alt: "Image 3",
               modalTarget: "#imageModal3"
             },
             {
-              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ebTxtw1osTBEQhJbUn-xRSdH6RWEKU-kqg&s",
-              alt: "Image 4",
+              src: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/415106931/1200", alt: "Image 4",
               modalTarget: "#imageModal4"
             },
             {
-              src: "https://live.staticflickr.com/65535/54016605899_e3008af9f2_h.jpg",
-              alt: "Image 5",
+              src: "https://observation.org/media/photo/12613514.jpg", alt: "Image 5",
               modalTarget: "#imageModal5"
             },
             {
-              src: "https://ceylonwildtours.com/wp-content/uploads/2022/01/Red-faced-Malkoha-is-in-its-Habitats.png",
-              alt: "Image 6",
+              src: "https://live.staticflickr.com/7407/12114056104_4d10194b8c_c.jpg", alt: "Image 6",
               modalTarget: "#imageModal6"
             },
             {
-              src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/8W0A7974.jpg/220px-8W0A7974.jpg",
-              alt: "Image 7",
+              src: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/204354861/640", alt: "Image 7",
               modalTarget: "#imageModal7"
             },
             {
-              src: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lesser_yellownape_Ghatgarh%2C_Uttarakhand%2C_India_06.10.2014.jpg",
-              alt: "Image 8",
+              src: "https://static.inaturalist.org/photos/9954132/medium.jpg", alt: "Image 8",
               modalTarget: "#imageModal8"
+            },
+            {
+              src:"https://live.staticflickr.com/65535/49988189023_007de91448_b.jpg",               alt: "Image 9",
+              modalTarget: "#imageModal9"
+            },
+            {
+              src:"https://www.mahoora.lk/images/2024/03/26/imresizer-1711443069977_thumbnail.jpg",               alt: "Image 10",
+              modalTarget: "#imageModal10"
+            },
+            {
+              src:"https://cdn.download.ams.birds.cornell.edu/api/v1/asset/614893674/1200",                 alt: "Image 11",
+              modalTarget: "#imageModal11"
             }
           ];
-      
           images.forEach((image, index) => {
             document.write(`
               <div class="col-lg-3 col-md-4 col-xs-6 thumb">
@@ -506,13 +510,12 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_NGwZSpDWwZVj7jl471UynIf0BJ57gxPcA&s"
+            <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/133932761/900"
               class="card-img-top creative-img" alt="Kitulgala Rain Forest">
             <div class="card-body">
-              <h5 class="card-title">Kitulgala Rain Forest</h5>
+              <h5 class="card-title">Pied Kingfisher</h5>
               <p class="card-text">
-                A mid-sized coucal of lowland and mid-hill forest. Black plumage with purplish sheen, dark rufous wings, and pale, greenish bill. Found in the dense undergrowth of humid forest where it is very skulking and difficult to see. Heard more often than seen. Similar to Greater Coucal, but Green-billed Coucal is smaller in size with pale bill. Call a series of deep, double “boop-boop” notes, or a regular, upslurred “ker-chuip” or “chuip” rather like a stone dropping into water.
+                A striking black-and-white kingfisher found near lakes, rivers, and lagoons. It hovers over water before diving to catch fish, making it highly distinctive in behavior and appearance.
               </p>
             </div>
           </div>
@@ -527,11 +530,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://images.pexels.com/photos/4567894/pexels-photo-4567894.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top creative-img" alt="Creative Image 2">
+            <img
+              src="https://i0.wp.com/amazinglanka.com/wp/wp-content/uploads/2015/05/159198.jpg"
+              class="card-img-top creative-img" alt="Creative Image 2">
             <div class="card-body">
-              <h5 class="card-title">Grey Hornbill</h5>
+              <h5 class="card-title">Common Kingfisher</h5>
               <p class="card-text">
-                Small hornbill with gray upperside and whitish underparts. Bill has no casque, and is pale in males, dark in females. In flight displays white outer tail and wingtips. Found in pairs and groups in forest and woodland, preferring drier areas. The only other hornbill in range, the larger Malabar Pied Hornbill, is black-and-white, and has a large casque on its bill. Song is an accelerating “kok-kok-kok” ending in a cackle; call a harsh “waa”.
+                A small, brightly colored bird with a blue back, orange underparts, and a sharp bill. It perches quietly by streams or ponds, diving swiftly for fish.
               </p>
             </div>
           </div>
@@ -546,12 +551,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/252000551/900" class="card-img-top creative-img" alt="Creative Image 2">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/18/3d/d5/f5/stork-billed-kingfisher.jpg"
+              class="card-img-top creative-img" alt="Creative Image 2">
             <div class="card-body">
-              <h5 class="card-title">Sri Lanka Spurfowl</h5>
+              <h5 class="card-title">Stork-billed Kingfisher</h5>
               <p class="card-text">
-                Partridgelike bird with distinct sexual dimorphism. Males have striking white spots and streaks, red bill, face, and legs. Females are plain reddish-brown, unlike the streaked Sri Lanka Junglefowl female. Found in lowland and hill forests, mainly in the Wet Zone, occasionally in the Dry Zone. Call is a rising “ki-ki-ki-ki-ki-chikew.”
-                </p>
+                The largest kingfisher in Sri Lanka, with a stout red bill, greenish-blue upperparts, and buff underparts. Found near rivers and wetlands, it feeds on fish and frogs.
+              </p>
             </div>
           </div>
         </div>
@@ -565,11 +571,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/361162991/480" class="card-img-top creative-img" alt="Sri Lanka Hanging Parrot ">
+            <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/145128521/900"
+              class="card-img-top creative-img" alt="Sri Lanka Hanging Parrot ">
             <div class="card-body">
-              <h5 class="card-title">Sri Lanka Hanging Parrot </h5>
+              <h5 class="card-title">Black Bittern</h5>
               <p class="card-text">
-                A tiny, short-tailed, bright green parrot with a red bill and rump; males have a scarlet crown. Found in Sri Lanka's forests, it is easily identified by its size and tail. Calls include a metallic “zit-zit-zit” or a drawn-out “zeeet.”              </p>
+                A secretive, dark-colored heron with a yellowish streak on the neck. Prefers dense reeds and marshes, often remaining hidden and motionless.
+              </p>
             </div>
           </div>
         </div>
@@ -583,11 +591,12 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/60447814/original.jpg" class="card-img-top creative-img" alt="Yellow fronted Barbet">
+            <img src="https://live.staticflickr.com/5819/24014116526_12be5bf218_b.jpg"
+              class="card-img-top creative-img" alt="Yellow fronted Barbet">
             <div class="card-body">
-              <h5 class="card-title">Yellow fronted Barbet</h5>
+              <h5 class="card-title">Yellow Bittern</h5>
               <p class="card-text">
-                Largish green barbet with blue face, yellow forecrown and mustache, and speckled underparts. Found in forest canopies, mainly in the Wet Zone and locally in the intermediate zone. Distinguished by yellow forehead, blue face, and dappled belly. Song is a repetitive “ke-cheer,” with rolling “pup-pup-pup” calls.
+                A small, pale yellow heron with a slender body, seen in reed beds and paddy fields. It is known for its stealthy movements while foraging for small prey.
               </p>
             </div>
           </div>
@@ -602,11 +611,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://www.srilankabirdwatchingtours.com/images/birds-of-sri-lanka/red-faced-malkoha/red-faced-malkoha3.jpg" class="card-img-top creative-img" alt="Red faced Malkoha">
+            <img
+              src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/338864851/640"
+              class="card-img-top creative-img" alt="Red faced Malkoha">
             <div class="card-body">
-              <h5 class="card-title">Red faced Malkoha</h5>
+              <h5 class="card-title">Cinnamon Bittern</h5>
               <p class="card-text">
-                Large, spectacular malkoha of moist lowland and mid-hill forest. Unmistakable with bright red face, yellowish bill, white belly and long, white-tipped tail. Found in the dense canopy of tall trees where it feeds on insects and small vertebrates. Normally found in pairs and often associates with mixed flocks usually led by Orange-billed Babblers. It can be hard to see despite its flashy appearance. Usually silent but does soft clucking and a call like static noise.
+                A chestnut-colored heron with a slender build, found in wetlands and paddy fields. It remains elusive, blending well with surrounding vegetation.
               </p>
             </div>
           </div>
@@ -621,11 +632,12 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://observation.org/media/photo/7750088.jpg" class="card-img-top creative-img" alt="Ashey headed Laughingthrush">
+            <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/252001871/320" class="card-img-top creative-img"
+              alt="Ashey headed Laughingthrush">
             <div class="card-body">
-              <h5 class="card-title">Ashey headed Laughingthrush</h5>
+              <h5 class="card-title">Crimson-fronted Barbet</h5>
               <p class="card-text">
-                A medium-sized, rufous babbler with a gray hood, pale beady eye, buff throat patch, and black bill and legs. Found in small groups low in the understory or on the ground in wet forests, it can join mixed-species flocks. Its gray head, black bill and legs, and buff underside distinguish it from other babblers. It produces a variety of untidy vocalizations, including scratchy notes, whistles, squeals, and metallic calls.
+                A small, vibrant green bird with a crimson forehead and yellow face. Common in wooded areas, it feeds on fruits and is known for its loud, repetitive calls.
               </p>
             </div>
           </div>
@@ -640,11 +652,12 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://live.staticflickr.com/4880/46872769361_704ed383fb_b.jpg" class="card-img-top creative-img" alt="Creative Image 2">
+            <img src="https://s3.amazonaws.com/media.jungledragon.com/images/2510/58760_small.jpg?AWSAccessKeyId=05GMT0V3GWVNE7GGM1R2&Expires=1736380810&Signature=4ZnAKqKV2dl5HhEeegJfrCyJI4w%3D" class="card-img-top creative-img"
+              alt="Creative Image 2">
             <div class="card-body">
-              <h5 class="card-title">With lesser Yellow napped</h5>
+              <h5 class="card-title">Black-rumped Flameback</h5>
               <p class="card-text">
-                A medium-sized woodpecker with a colorful crest, featuring a bright yellow hindcrest, greenish body, and white-barred chest. Greater Yellownape is larger with an all-gray belly. Found in forested lowlands and foothills, it forages on trunks, branches, and the ground, sometimes joining mixed-species flocks. Its call sounds like a raptor's “pyeeeah.”
+                A striking woodpecker with golden-yellow wings, black back, and red crest. Found in forests and gardens, it feeds on insects by hammering tree trunks.
               </p>
             </div>
           </div>
@@ -652,6 +665,66 @@
       </div>
     </div>
   </div>
+
+    <!-- Modal 9 -->
+    <div class="modal fade" id="imageModal9" tabindex="-1" aria-labelledby="imageModalLabel9" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="card creative-card">
+              <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+              <img src="https://observation.org/media/photo/2807414.jpg" class="card-img-top creative-img" alt="Creative Image 2">
+              <div class="card-body">
+                <h5 class="card-title">Blue-faced Malkoha</h5>
+                <p class="card-text">
+                  The Blue-faced Malkoha (Phaenicophaeus viridirostris) is a striking bird with a vivid blue face patch, a long tail, and olive-green plumage. Found in Sri Lanka's forests and scrublands, it forages for insects and small reptiles in the canopy.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Modal 10 -->
+     <div class="modal fade" id="imageModal10" tabindex="-1" aria-labelledby="imageModalLabel10" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="card creative-card">
+              <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+              <img src="https://www.mahoora.lk/images/2024/09/13/brown-fish-owl-sri-lanka.jpg" class="card-img-top creative-img" alt="Creative Image 2">
+              <div class="card-body">
+                <h5 class="card-title">Brown Fish Owl</h5>
+                <p class="card-text">
+                  The Brown Fish Owl (Ketupa zeylonensis) is a large nocturnal bird with bright yellow eyes, ear tufts, and brown streaked plumage. Common near waterbodies in Sri Lanka, it preys on fish, amphibians, and small mammals.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Modal 11 -->
+      <div class="modal fade" id="imageModal11" tabindex="-1" aria-labelledby="imageModalLabel11" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="card creative-card">
+                <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+                <img src="https://www.thainationalparks.com/img/species/2016/03/09/181916/clamator-coromandus-chestnut-winged-cuckoo-w-1500.jpg" class="card-img-top creative-img" alt="Creative Image 2">
+                <div class="card-body">
+                  <h5 class="card-title">Chestnut-winged Cuckoo</h5>
+                  <p class="card-text">
+                    The Chestnut-winged Cuckoo (Clamator coromandus) is a migratory bird with glossy black plumage, chestnut wings, and a prominent crest. Found in Sri Lanka’s forests during the winter, it is known for its sharp calls and parasitic nesting behavior.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
   <!-- Birds Gallery End-->
 
   <!-- Footer -->

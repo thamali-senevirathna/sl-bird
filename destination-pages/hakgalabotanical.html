@@ -208,7 +208,7 @@
       font-size: 1rem;
       color: #555;
       font-style: italic;
-     
+
     }
 
     .close-icon {
@@ -301,24 +301,23 @@
       left: 0px;
       border-width: 30px;
     }
-   
 
-.image-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.71);
-  font-size: 20px;
-  font-weight: bold;
-  display: none;
-  text-wrap: nowrap;
-}
 
-.image-container:hover .image-text {
-  display: block;
-}
+    .image-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgba(255, 255, 255, 0.71);
+      font-size: 20px;
+      font-weight: bold;
+      display: none;
+      text-wrap: nowrap;
+    }
 
+    .image-container:hover .image-text {
+      display: block;
+    }
   </style>
 
 </head>
@@ -407,7 +406,9 @@
             <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Birds</h6>
             <h1 class="mb-3 text-">Best Bird Watching Sites in Sri Lanka, covered in our tour plans</h1>
             <p>
-                Hakgala Botanic Gardens, at 1,745m above sea level, span 28 hectares beneath the towering 2,200m Hakgala Rock ("Elephant’s Jaw Rock"). The terraced gardens overlook the Uva Valley, offering stunning views of the Madulsima and Namunukula mountain ranges.            </p>
+              Hakgala Botanic Gardens, at 1,745m above sea level, span 28 hectares beneath the towering 2,200m Hakgala
+              Rock ("Elephant’s Jaw Rock"). The terraced gardens overlook the Uva Valley, offering stunning views of the
+              Madulsima and Namunukula mountain ranges. </p>
             <div class="row mb-4">
               <div class="col-6">
                 <img class="img-fluid"
@@ -435,47 +436,63 @@
         <script>
           const images = [
             {
-              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_NGwZSpDWwZVj7jl471UynIf0BJ57gxPcA&s",
+              src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Japanese_white-eye_at_Tenn%C5%8Dji_Park_in_Osaka%2C_January_2016_III.jpg/1200px-Japanese_white-eye_at_Tenn%C5%8Dji_Park_in_Osaka%2C_January_2016_III.jpg",
               alt: "Image 1",
               modalTarget: "#imageModal1"
             },
             {
-              src: "https://images.pexels.com/photos/4567894/pexels-photo-4567894.jpeg?auto=compress&cs=tinysrgb&w=600",
+              src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1uzjsu0P1LUiGU_SupPb2K_j1_-h_1dq2ZSyIj1GVoDAL7W0rORZvpI9ItDi1StBXNnKVPmw7LhxF8bzzX-0inqqhsW3C5PYmS4MIw6FoUOZxIUD3r_8V3aRAZjvkitzqV3tWeqVJLtUq/s1600/6.jpg",
               alt: "Image 2",
               modalTarget: "#imageModal2"
             },
             {
-              src: "https://media-cdn.tripadvisor.com/media/photo-s/1b/42/02/db/the-sri-lanka-spurfowl.jpg",
-              alt: "Image 3",
+              src: "https://www.srilankabirdwatchingtours.com/images/birds-of-sri-lanka/sri-lanka-wood-pigeon/sri-lanka-wood-pigeon1.jpg", alt: "Image 3",
               modalTarget: "#imageModal3"
             },
             {
-              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ebTxtw1osTBEQhJbUn-xRSdH6RWEKU-kqg&s",
-              alt: "Image 4",
+              src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Dull-blue_flycatcher.jpg/580px-Dull-blue_flycatcher.jpg", alt: "Image 4",
               modalTarget: "#imageModal4"
             },
             {
-              src: "https://live.staticflickr.com/65535/54016605899_e3008af9f2_h.jpg",
-              alt: "Image 5",
+              src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Luscinia_brunnea.jpg/460px-Luscinia_brunnea.jpg", alt: "Image 5",
               modalTarget: "#imageModal5"
             },
             {
-              src: "https://ceylonwildtours.com/wp-content/uploads/2022/01/Red-faced-Malkoha-is-in-its-Habitats.png",
-              alt: "Image 6",
+              src:"https://inaturalist-open-data.s3.amazonaws.com/photos/402927/large.jpg",
+             alt: "Image 6",
               modalTarget: "#imageModal6"
             },
             {
-              src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/8W0A7974.jpg/220px-8W0A7974.jpg",
-              alt: "Image 7",
+              src: "https://www.wildlifetrusts.org/sites/default/files/styles/node_hero_default/public/third_light/Blackbird%252034.jpg?h=02ab4bae&itok=B65b2rR_", alt: "Image 7",
               modalTarget: "#imageModal7"
             },
             {
-              src: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lesser_yellownape_Ghatgarh%2C_Uttarakhand%2C_India_06.10.2014.jpg",
-              alt: "Image 8",
+              src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgFnPr8vePbD1HsfOJbRHfwrYs0o7Fjfe25cQkAOrDd8L3kEeYdntaJvdmN_fLHpmg3tboU7EODaVFpalbV4bk5WmhKEZMw06cbq4hJfILIRAmr_tuRpFvqZBOXphjZFWwYWp-2Vd9908/s1600/bulbul_ye.jpg", alt: "Image 8",
               modalTarget: "#imageModal8"
-            }
+            },
+            {
+            src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWU_--r1Pb3N2wuCBgOGw6USU3bwJf-j2vFQ&s",
+              alt: "Image 9",
+              modalTarget: "#imageModal9"
+            },
+            {
+            src:"https://cdn.download.ams.birds.cornell.edu/api/v1/asset/207767511/320",
+              alt: "Image 10",
+              modalTarget: "#imageModal10"
+            },
+            {
+            src:"https://t4.ftcdn.net/jpg/10/89/11/81/360_F_1089118171_LI8QIpHxysJpy4ZLffVnCYx0LgbvAjI9.jpg",
+              alt: "Image 11",
+              modalTarget: "#imageModal11"
+            },
+            {
+            src:"https://wildlifevagabond.com/wp-content/uploads/2024/05/MG_3949-Edit-2-Edit.jpg",
+              alt: "Image 12",
+              modalTarget: "#imageModal12"
+            },
+           
           ];
-      
+
           images.forEach((image, index) => {
             document.write(`
               <div class="col-lg-3 col-md-4 col-xs-6 thumb">
@@ -493,10 +510,10 @@
           });
         </script>
       </div>
-      
+
     </div>
   </section>
-  
+
 
   <!-- Modal 1 -->
   <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModalLabel1" aria-hidden="true">
@@ -505,13 +522,12 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_NGwZSpDWwZVj7jl471UynIf0BJ57gxPcA&s"
+            <img src="https://windows10spotlight.com/wp-content/uploads/2019/02/9915a356fa6e3b8e15470ed0100ba392.jpg"
               class="card-img-top creative-img" alt="Kitulgala Rain Forest">
             <div class="card-body">
-              <h5 class="card-title">Kitulgala Rain Forest</h5>
+              <h5 class="card-title"> Sri Lanka white Eye</h5>
               <p class="card-text">
-                A mid-sized coucal of lowland and mid-hill forest. Black plumage with purplish sheen, dark rufous wings, and pale, greenish bill. Found in the dense undergrowth of humid forest where it is very skulking and difficult to see. Heard more often than seen. Similar to Greater Coucal, but Green-billed Coucal is smaller in size with pale bill. Call a series of deep, double “boop-boop” notes, or a regular, upslurred “ker-chuip” or “chuip” rather like a stone dropping into water.
+                The **Sri Lanka White-eye** (*Zosterops ceylonensis*) is a small, greenish-yellow bird endemic to Sri Lanka's highlands. It has a distinctive white eye-ring, bright yellow throat, and olive-green upperparts. Found in montane forests and gardens, it moves in flocks, feeding on insects, nectar, and fruits, often accompanied by cheerful, high-pitched calls.
               </p>
             </div>
           </div>
@@ -526,11 +542,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://images.pexels.com/photos/4567894/pexels-photo-4567894.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top creative-img" alt="Creative Image 2">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgm4gX18-SI8Yy5Hgna6LlQm6FvEqVL1NKCU3Gevui18owsTC_T4w78HHyyV7I1BPPmgR_kHxeQ5OVXqPkna0qet5k7rItqAKfV7ltWwXVMsfFWheBNuk27OKfs-vpMN-RfdpHbFuuRbNP/s1600/1.jpg"
+              class="card-img-top creative-img" alt="Creative Image 2">
             <div class="card-body">
-              <h5 class="card-title">Grey Hornbill</h5>
+              <h5 class="card-title">Sri Lanka Bush Wabler</h5>
               <p class="card-text">
-                Small hornbill with gray upperside and whitish underparts. Bill has no casque, and is pale in males, dark in females. In flight displays white outer tail and wingtips. Found in pairs and groups in forest and woodland, preferring drier areas. The only other hornbill in range, the larger Malabar Pied Hornbill, is black-and-white, and has a large casque on its bill. Song is an accelerating “kok-kok-kok” ending in a cackle; call a harsh “waa”.
+                The **Sri Lanka Bush Warbler** (*Elaphrornis palliseri*) is a shy, brownish bird endemic to Sri Lanka's highlands. It inhabits dense undergrowth in montane forests, often skulking near the ground. It has a plain olive-brown back, rufous flanks, and a paler throat. Known for its sharp, repetitive call, it is more often heard than seen.
               </p>
             </div>
           </div>
@@ -545,12 +563,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/252000551/900" class="card-img-top creative-img" alt="Creative Image 2">
+            <img src="https://live.staticflickr.com/4886/32005969037_f72391f2ce_c.jpg"
+              class="card-img-top creative-img" alt="Creative Image 2">
             <div class="card-body">
-              <h5 class="card-title">Sri Lanka Spurfowl</h5>
+              <h5 class="card-title">Sri Lanka Wood Pigeon</h5>
               <p class="card-text">
-                Partridgelike bird with distinct sexual dimorphism. Males have striking white spots and streaks, red bill, face, and legs. Females are plain reddish-brown, unlike the streaked Sri Lanka Junglefowl female. Found in lowland and hill forests, mainly in the Wet Zone, occasionally in the Dry Zone. Call is a rising “ki-ki-ki-ki-ki-chikew.”
-                </p>
+                The **Sri Lanka Wood Pigeon** (*Columba torringtoniae*) is a large, endemic pigeon found in Sri Lanka's highland forests. It has a grayish-purple body, a checkerboard-patterned neck patch, and a deep cooing call. Typically seen in pairs or small groups, it feeds on fruits and berries in the forest canopy.
+              </p>
             </div>
           </div>
         </div>
@@ -564,11 +583,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/361162991/480" class="card-img-top creative-img" alt="Sri Lanka Hanging Parrot ">
+            <img src="https://www.oiseaux.net/photos/paul.van.giersbergen/images/gobemouche.de.ceylan.pava.1g.jpg"
+              class="card-img-top creative-img" alt="Sri Lanka Hanging Parrot ">
             <div class="card-body">
-              <h5 class="card-title">Sri Lanka Hanging Parrot </h5>
+              <h5 class="card-title">Dull Blue Flycatcher</h5>
               <p class="card-text">
-                A tiny, short-tailed, bright green parrot with a red bill and rump; males have a scarlet crown. Found in Sri Lanka's forests, it is easily identified by its size and tail. Calls include a metallic “zit-zit-zit” or a drawn-out “zeeet.”              </p>
+                The **Dull-blue Flycatcher** (*Eumyias sordidus*) is a small, endemic bird of Sri Lanka's montane forests. It has a largely blue plumage with an intense blue forehead, a black face, and a pale gray belly. Found in the understory, it is often seen alone or in pairs, emitting melodic warbling notes and short "chip" calls.
+              </p>
             </div>
           </div>
         </div>
@@ -582,11 +603,12 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/60447814/original.jpg" class="card-img-top creative-img" alt="Yellow fronted Barbet">
+            <img src="https://live.staticflickr.com/7875/46707568942_df4dd068a0_c.jpg"
+              class="card-img-top creative-img" alt="Yellow fronted Barbet">
             <div class="card-body">
-              <h5 class="card-title">Yellow fronted Barbet</h5>
+              <h5 class="card-title">Indian Blue Robin</h5>
               <p class="card-text">
-                Largish green barbet with blue face, yellow forecrown and mustache, and speckled underparts. Found in forest canopies, mainly in the Wet Zone and locally in the intermediate zone. Distinguished by yellow forehead, blue face, and dappled belly. Song is a repetitive “ke-cheer,” with rolling “pup-pup-pup” calls.
+                The **Indian Blue Robin** (*Larvivora brunnea*) is a small, striking bird found in dense undergrowth of forests and plantations, particularly in Sri Lanka's hills during winter. Males have vivid blue upperparts, a white throat stripe, and an orange chest, while females are duller with brownish tones. It is shy and often forages on the ground, flipping leaves for insects.
               </p>
             </div>
           </div>
@@ -601,11 +623,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://www.srilankabirdwatchingtours.com/images/birds-of-sri-lanka/red-faced-malkoha/red-faced-malkoha3.jpg" class="card-img-top creative-img" alt="Red faced Malkoha">
+            <img
+              src="https://cdn.birdseye.photo/media/resized/large/008120-109-20150313174955.jpg"
+              class="card-img-top creative-img" alt="Red faced Malkoha">
             <div class="card-body">
-              <h5 class="card-title">Red faced Malkoha</h5>
+              <h5 class="card-title">Canary Flycatcher</h5>
               <p class="card-text">
-                Large, spectacular malkoha of moist lowland and mid-hill forest. Unmistakable with bright red face, yellowish bill, white belly and long, white-tipped tail. Found in the dense canopy of tall trees where it feeds on insects and small vertebrates. Normally found in pairs and often associates with mixed flocks usually led by Orange-billed Babblers. It can be hard to see despite its flashy appearance. Usually silent but does soft clucking and a call like static noise.
+                The **Canary Flycatcher** (*Culicicapa ceylonensis*) is a small, active bird with a bright yellow belly, olive-gray upperparts, and a short crest. Found in forests and wooded areas, it flits energetically while catching insects and is known for its sweet, high-pitched calls.
               </p>
             </div>
           </div>
@@ -620,11 +644,12 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://observation.org/media/photo/7750088.jpg" class="card-img-top creative-img" alt="Ashey headed Laughingthrush">
+            <img src="https://www.allaboutbirds.org/guide/assets/og/75267021-1200px.jpg" class="card-img-top creative-img"
+              alt="Ashey headed Laughingthrush">
             <div class="card-body">
-              <h5 class="card-title">Ashey headed Laughingthrush</h5>
+              <h5 class="card-title"> Black Bird</h5>
               <p class="card-text">
-                A medium-sized, rufous babbler with a gray hood, pale beady eye, buff throat patch, and black bill and legs. Found in small groups low in the understory or on the ground in wet forests, it can join mixed-species flocks. Its gray head, black bill and legs, and buff underside distinguish it from other babblers. It produces a variety of untidy vocalizations, including scratchy notes, whistles, squeals, and metallic calls.
+                The **Blackbird** (*Turdus merula*) is a medium-sized songbird with glossy black plumage in males and a bright yellow bill, while females are brown with streaked underparts. Found in forests, gardens, and urban areas, it is known for its melodious, fluty song, especially at dawn and dusk. It forages on the ground for insects, worms, and berries.
               </p>
             </div>
           </div>
@@ -639,11 +664,12 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://live.staticflickr.com/4880/46872769361_704ed383fb_b.jpg" class="card-img-top creative-img" alt="Creative Image 2">
+            <img src="https://paradiselanka.wordpress.com/wp-content/uploads/2009/07/9e5221b9a0c27530cba36e4307a8ac6e.jpg" class="card-img-top creative-img"
+              alt="Creative Image 2">
             <div class="card-body">
-              <h5 class="card-title">With lesser Yellow napped</h5>
+              <h5 class="card-title">Yellow earned Bulbul </h5>
               <p class="card-text">
-                A medium-sized woodpecker with a colorful crest, featuring a bright yellow hindcrest, greenish body, and white-barred chest. Greater Yellownape is larger with an all-gray belly. Found in forested lowlands and foothills, it forages on trunks, branches, and the ground, sometimes joining mixed-species flocks. Its call sounds like a raptor's “pyeeeah.”
+                The **Yellow-eared Bulbul** (*Pycnonotus penicillatus*) is a small, vibrant bird found in the forests of Sri Lanka and southern India. It has distinctive yellow ear patches, a dark head, and olive-green upperparts. Its underparts are pale, and it is known for its melodic calls. This species is often seen in the mid-canopy, foraging for fruits and insects.
               </p>
             </div>
           </div>
@@ -651,6 +677,87 @@
       </div>
     </div>
   </div>
+    <!-- Modal 9 -->
+    <div class="modal fade" id="imageModal9" tabindex="-1" aria-labelledby="imageModalLabel9" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="card creative-card">
+              <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+              <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/38472011/480" class="card-img-top creative-img"
+                alt="Creative Image 2">
+              <div class="card-body">
+                <h5 class="card-title"> Pied Thrush</h5>
+                <p class="card-text">
+                  The **Pied Thrush** (*Turdus nigriceps*) is a striking bird with a black head, back, and wings, contrasting with its white underparts and bright orange-brown sides. Found in Sri Lanka’s forests, it is often seen foraging on the ground for insects and fruit. Known for its melodic song, it is a relatively solitary bird, typically found in dense, moist woodlands.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Modal 10 -->
+     <div class="modal fade" id="imageModal10" tabindex="-1" aria-labelledby="imageModalLabel10" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="card creative-card">
+              <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Grey-headed_Canary-Flycatcher.jpg" class="card-img-top creative-img"
+                alt="Creative Image 2">
+              <div class="card-body">
+                <h5 class="card-title"> Canary Fly catcher</h5>
+                <p class="card-text">
+                  The **Canary Flycatcher** (*Culicicapa ceylonensis*) is a small, vibrant bird found in Sri Lanka's forests. It has a striking yellow belly, olive-gray upperparts, and a short crest. This active bird is often seen flitting around catching insects. Its cheerful call adds to its appeal in the lush forest environment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Modal 11 -->
+      <div class="modal fade" id="imageModal11" tabindex="-1" aria-labelledby="imageModalLabel11" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="card creative-card">
+                <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+                <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/620398692/640" class="card-img-top creative-img"
+                  alt="Creative Image 2">
+                <div class="card-body">
+                  <h5 class="card-title">Indian Pitta</h5>
+                  <p class="card-text">
+                    The **Indian Pitta** (*Pitta brachyura*) is a brightly colored bird with a distinctive appearance, featuring green upperparts, a buffy crown, black eye-stripe, and a vibrant red vent. It is commonly found in forests and dense undergrowth, where it forages for insects. Known for its lively, two-note whistle call, the Indian Pitta is active during the early morning and dusk hours.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+         <!-- Modal 12 -->
+         <div class="modal fade" id="imageModal12" tabindex="-1" aria-labelledby="imageModalLabel12" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="card creative-card">
+                  <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+                  <img src="https://base-prod.rspb-prod.magnolia-platform.com/dam/jcr:278d76ef-56d5-45fe-8638-32025b3332a9/190018151-Species-Common-Sandpiper-wading-through-water.jpg" class="card-img-top creative-img"
+                    alt="Creative Image 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Green Sandpiper</h5>
+                    <p class="card-text">
+                      The **Green Sandpiper** (*Tringa ochropus*) is a small wader with a distinctive greenish-brown plumage, often appearing in wetland habitats. It has a white underside with dark spots and a long, slender bill. Known for its graceful, steady foraging along shorelines and muddy banks, it feeds on small invertebrates. It also produces a soft, melodious call.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+           
   <!-- Birds Gallery End-->
 
   <!-- Footer -->

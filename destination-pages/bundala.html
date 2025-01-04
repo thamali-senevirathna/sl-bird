@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Udawatta Kele Forest Reserve </title>
+  <title>Bundala National Park </title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Font Awesome -->
@@ -208,7 +208,7 @@
       font-size: 1rem;
       color: #555;
       font-style: italic;
-     
+
     }
 
     .close-icon {
@@ -301,24 +301,23 @@
       left: 0px;
       border-width: 30px;
     }
-   
 
-.image-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.71);
-  font-size: 20px;
-  font-weight: bold;
-  display: none;
-  text-wrap: nowrap;
-}
 
-.image-container:hover .image-text {
-  display: block;
-}
+    .image-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgba(255, 255, 255, 0.71);
+      font-size: 20px;
+      font-weight: bold;
+      display: none;
+      text-wrap: nowrap;
+    }
 
+    .image-container:hover .image-text {
+      display: block;
+    }
   </style>
 
 </head>
@@ -407,7 +406,9 @@
             <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Birds</h6>
             <h1 class="mb-3 text-">Best Bird Watching Sites in Sri Lanka, covered in our tour plans</h1>
             <p>
-                This is the First Ramsor site in Sri Lanka and it is the most important wetland for birds outside the Northern Province . The lagoons and saltants of the park are among the most important wintering areas for migratory shore birds in the Country.
+              This is the First Ramsor site in Sri Lanka and it is the most important wetland for birds outside the
+              Northern Province . The lagoons and saltants of the park are among the most important wintering areas for
+              migratory shore birds in the Country.
             </p>
             <div class="row mb-4">
               <div class="col-6">
@@ -436,47 +437,75 @@
         <script>
           const images = [
             {
-              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_NGwZSpDWwZVj7jl471UynIf0BJ57gxPcA&s",
+              src: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/381519591/640",
               alt: "Image 1",
               modalTarget: "#imageModal1"
             },
             {
-              src: "https://images.pexels.com/photos/4567894/pexels-photo-4567894.jpeg?auto=compress&cs=tinysrgb&w=600",
+              src: "https://s3.animalia.bio/animals/photos/full/original/shutterstock-1328836406jpg.webp",
               alt: "Image 2",
               modalTarget: "#imageModal2"
             },
             {
-              src: "https://media-cdn.tripadvisor.com/media/photo-s/1b/42/02/db/the-sri-lanka-spurfowl.jpg",
+              src: "https://birdsdontpee.com/wp-content/uploads/2022/11/14apr2015-102.jpg",
               alt: "Image 3",
               modalTarget: "#imageModal3"
             },
             {
-              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ebTxtw1osTBEQhJbUn-xRSdH6RWEKU-kqg&s",
+              src: "https://media-cdn.tripadvisor.com/media/photo-s/16/b7/a6/6d/asian-openbill-stork.jpg",
               alt: "Image 4",
               modalTarget: "#imageModal4"
             },
             {
-              src: "https://live.staticflickr.com/65535/54016605899_e3008af9f2_h.jpg",
+              src: "https://s3.animalia.bio/animals/photos/full/1.25x1/black-winged-stilt-portraitjpg.webp?id=cd651bd4f5ab1fcf7ff1a9d7b71696d2",
               alt: "Image 5",
               modalTarget: "#imageModal5"
             },
             {
-              src: "https://ceylonwildtours.com/wp-content/uploads/2022/01/Red-faced-Malkoha-is-in-its-Habitats.png",
+              src: "https://fogsl.cmb.ac.lk/wp-content/uploads/2023/09/376240735_271361629170204_6324069241963953360_n.jpg",
               alt: "Image 6",
               modalTarget: "#imageModal6"
             },
             {
-              src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/8W0A7974.jpg/220px-8W0A7974.jpg",
+              src: "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/534976121/1200",
               alt: "Image 7",
               modalTarget: "#imageModal7"
             },
             {
-              src: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lesser_yellownape_Ghatgarh%2C_Uttarakhand%2C_India_06.10.2014.jpg",
+              src: "https://www.outdooralabama.com/sites/default/files/Wildlife/Birds/Wilson's%20Plover.jpg",
               alt: "Image 8",
               modalTarget: "#imageModal8"
             }
+            ,
+            {
+              src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Lesser_Yellowlegs.jpg/640px-Lesser_Yellowlegs.jpg",
+              alt: "Image 9",
+              modalTarget: "#imageModal9"
+            }
+            ,
+            {
+              src: "https://birdsdontpee.com/wp-content/uploads/2023/03/Royals-2-of-4.jpg",
+              alt: "Image 10",
+              modalTarget: "#imageModal10"
+            }
+            ,
+            {
+              src: "https://static.wixstatic.com/media/991922_a32cb65553b34be4a54d365b809b7d9f~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/991922_a32cb65553b34be4a54d365b809b7d9f~mv2.jpg",
+              alt: "Image 11",
+              modalTarget: "#imageModal11"
+            },
+            {
+              src: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/133936271/1200",
+              alt: "Image 12",
+              modalTarget: "#imageModal12"
+            },
+            {
+              src: "https://media.istockphoto.com/id/484697510/photo/the-brahminy-myna-or-brahminy-starling.jpg?s=612x612&w=0&k=20&c=1klV4onJSvlcsndequFHqDzYbYDGeEh9nVrE6ctJVuk=",
+              alt: "Image 13",
+              modalTarget: "#imageModal13"
+            }
           ];
-      
+
           images.forEach((image, index) => {
             document.write(`
               <div class="col-lg-3 col-md-4 col-xs-6 thumb">
@@ -494,10 +523,10 @@
           });
         </script>
       </div>
-      
+
     </div>
   </section>
-  
+
 
   <!-- Modal 1 -->
   <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModalLabel1" aria-hidden="true">
@@ -507,12 +536,13 @@
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_NGwZSpDWwZVj7jl471UynIf0BJ57gxPcA&s"
+              src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2022/02/21095955/Flamingoes-c-Mevan-Piyasena-768x512.jpg"
               class="card-img-top creative-img" alt="Kitulgala Rain Forest">
             <div class="card-body">
-              <h5 class="card-title">Kitulgala Rain Forest</h5>
+              <h5 class="card-title">Greater Flamingo</h5>
               <p class="card-text">
-                A mid-sized coucal of lowland and mid-hill forest. Black plumage with purplish sheen, dark rufous wings, and pale, greenish bill. Found in the dense undergrowth of humid forest where it is very skulking and difficult to see. Heard more often than seen. Similar to Greater Coucal, but Green-billed Coucal is smaller in size with pale bill. Call a series of deep, double “boop-boop” notes, or a regular, upslurred “ker-chuip” or “chuip” rather like a stone dropping into water.
+                A tall, elegant bird with pinkish-white plumage and a curved bill, found in Sri Lanka's lagoons and salt
+                pans during migration.
               </p>
             </div>
           </div>
@@ -527,11 +557,14 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://images.pexels.com/photos/4567894/pexels-photo-4567894.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top creative-img" alt="Creative Image 2">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIriUEw1fbpCKEmg0xS-B4R1JWsOneMlDrU7wDIi1iLQijRvN5NmdQ-g_GCkUHI85rNkKpGMDopgBOxfyeYX8EZBjUUafG4cG1prGCfcqGLfLZ8Z2M2r7sEgjAa-1MiLk6tT7y_qxBWPQ/s1600/wali1.jpg"
+              class="card-img-top creative-img" alt="Creative Image 2">
             <div class="card-body">
-              <h5 class="card-title">Grey Hornbill</h5>
+              <h5 class="card-title">Sri Lanka Jungle Fowl</h5>
               <p class="card-text">
-                Small hornbill with gray upperside and whitish underparts. Bill has no casque, and is pale in males, dark in females. In flight displays white outer tail and wingtips. Found in pairs and groups in forest and woodland, preferring drier areas. The only other hornbill in range, the larger Malabar Pied Hornbill, is black-and-white, and has a large casque on its bill. Song is an accelerating “kok-kok-kok” ending in a cackle; call a harsh “waa”.
+                The national bird of Sri Lanka, this colorful forest bird has bright red, orange, and yellow plumage,
+                resembling a domestic rooster.
               </p>
             </div>
           </div>
@@ -546,12 +579,14 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/252000551/900" class="card-img-top creative-img" alt="Creative Image 2">
+            <img src="https://wildlifeinnature.com/wp/wp-content/uploads/2019/06/wpgsoperGE5191.jpg"
+              class="card-img-top creative-img" alt="Creative Image 2">
             <div class="card-body">
-              <h5 class="card-title">Sri Lanka Spurfowl</h5>
+              <h5 class="card-title">Great Egret</h5>
               <p class="card-text">
-                Partridgelike bird with distinct sexual dimorphism. Males have striking white spots and streaks, red bill, face, and legs. Females are plain reddish-brown, unlike the streaked Sri Lanka Junglefowl female. Found in lowland and hill forests, mainly in the Wet Zone, occasionally in the Dry Zone. Call is a rising “ki-ki-ki-ki-ki-chikew.”
-                </p>
+                A large white wader with a long neck and yellow bill, seen in wetlands and paddy fields, hunting fish
+                and amphibians.
+              </p>
             </div>
           </div>
         </div>
@@ -565,11 +600,14 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/361162991/480" class="card-img-top creative-img" alt="Sri Lanka Hanging Parrot ">
+            <img src="https://live.staticflickr.com/5809/21659287401_fc5f1996b1_b.jpg" class="card-img-top creative-img"
+              alt="Sri Lanka Hanging Parrot ">
             <div class="card-body">
-              <h5 class="card-title">Sri Lanka Hanging Parrot </h5>
+              <h5 class="card-title">Asian Openbill</h5>
               <p class="card-text">
-                A tiny, short-tailed, bright green parrot with a red bill and rump; males have a scarlet crown. Found in Sri Lanka's forests, it is easily identified by its size and tail. Calls include a metallic “zit-zit-zit” or a drawn-out “zeeet.”              </p>
+                A medium-sized stork with a distinct gap in its bill, commonly found in paddy fields feeding on snails
+                and small aquatic animals.
+              </p>
             </div>
           </div>
         </div>
@@ -583,11 +621,14 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/60447814/original.jpg" class="card-img-top creative-img" alt="Yellow fronted Barbet">
+            <img
+              src="https://fogsl.cmb.ac.lk/wp-content/uploads/2023/09/376498703_24025145173765784_7645571761145533639_n.jpg"
+              class="card-img-top creative-img" alt="Yellow fronted Barbet">
             <div class="card-body">
-              <h5 class="card-title">Yellow fronted Barbet</h5>
+              <h5 class="card-title">Black-winged Stilt</h5>
               <p class="card-text">
-                Largish green barbet with blue face, yellow forecrown and mustache, and speckled underparts. Found in forest canopies, mainly in the Wet Zone and locally in the intermediate zone. Distinguished by yellow forehead, blue face, and dappled belly. Song is a repetitive “ke-cheer,” with rolling “pup-pup-pup” calls.
+                A striking wader with long pink legs and black-and-white plumage, frequenting shallow wetlands and
+                lagoons.
               </p>
             </div>
           </div>
@@ -602,11 +643,14 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://www.srilankabirdwatchingtours.com/images/birds-of-sri-lanka/red-faced-malkoha/red-faced-malkoha3.jpg" class="card-img-top creative-img" alt="Red faced Malkoha">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizcnSBdVu-LA3LzbrW2LFfyGbGNGU9cTtok2a5hv3cJuJwacaYlNJ1qzO_QaeMaqHMjOoIVY-sbvo9slaHk-ZH2z4Sk_-hDWBdRFuJMHRJxEBtXmu5X1Duuh5dylXHcxidxM48wuwgiqg/s1600/1+Yellow-wattled+lapwing+-+bundala.jpg"
+              class="card-img-top creative-img" alt="Red faced Malkoha">
             <div class="card-body">
-              <h5 class="card-title">Red faced Malkoha</h5>
+              <h5 class="card-title">Yellow-wattled Lapwing</h5>
               <p class="card-text">
-                Large, spectacular malkoha of moist lowland and mid-hill forest. Unmistakable with bright red face, yellowish bill, white belly and long, white-tipped tail. Found in the dense canopy of tall trees where it feeds on insects and small vertebrates. Normally found in pairs and often associates with mixed flocks usually led by Orange-billed Babblers. It can be hard to see despite its flashy appearance. Usually silent but does soft clucking and a call like static noise.
+                A ground-dwelling bird with a brown body, yellow wattles near its face, and a preference for open dry
+                habitats.
               </p>
             </div>
           </div>
@@ -621,11 +665,14 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://observation.org/media/photo/7750088.jpg" class="card-img-top creative-img" alt="Ashey headed Laughingthrush">
+            <img
+              src="https://media.istockphoto.com/id/636905174/photo/painted-stork-in-arugam-bay-lagoon-sri-lanka.jpg?s=612x612&w=0&k=20&c=ToHfjYzsZ84GIO7iryBOhrwrhrtXFEW9lWjH-hQuNx4="
+              class="card-img-top creative-img" alt="Ashey headed Laughingthrush">
             <div class="card-body">
-              <h5 class="card-title">Ashey headed Laughingthrush</h5>
+              <h5 class="card-title">Painted Stork</h5>
               <p class="card-text">
-                A medium-sized, rufous babbler with a gray hood, pale beady eye, buff throat patch, and black bill and legs. Found in small groups low in the understory or on the ground in wet forests, it can join mixed-species flocks. Its gray head, black bill and legs, and buff underside distinguish it from other babblers. It produces a variety of untidy vocalizations, including scratchy notes, whistles, squeals, and metallic calls.
+                A large, colorful stork with a pink-tipped white body, black markings, and a long yellow bill, found in
+                wetlands.
               </p>
             </div>
           </div>
@@ -640,11 +687,122 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://live.staticflickr.com/4880/46872769361_704ed383fb_b.jpg" class="card-img-top creative-img" alt="Creative Image 2">
+            <img
+              src="https://static.wixstatic.com/media/991922_613790e66f9549dda7f214b572523156~mv2.jpg/v1/fill/w_520,h_292,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/991922_613790e66f9549dda7f214b572523156~mv2.jpg"
+              class="card-img-top creative-img" alt="Creative Image 2">
             <div class="card-body">
-              <h5 class="card-title">With lesser Yellow napped</h5>
+              <h5 class="card-title">Plovers</h5>
               <p class="card-text">
-                A medium-sized woodpecker with a colorful crest, featuring a bright yellow hindcrest, greenish body, and white-barred chest. Greater Yellownape is larger with an all-gray belly. Found in forested lowlands and foothills, it forages on trunks, branches, and the ground, sometimes joining mixed-species flocks. Its call sounds like a raptor's “pyeeeah.”
+                Migratory shorebirds with compact bodies and short bills, seen in large numbers on Sri Lanka's coastal
+                mudflats and wetlands.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 9 -->
+  <div class="modal fade" id="imageModal9" tabindex="-1" aria-labelledby="imageModalLabel9" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img src="https://s3.animalia.bio/animals/photos/full/original/tringa-glareola-in-japan.webp"
+              class="card-img-top creative-img" alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Sandpipers</h5>
+              <p class="card-text">
+                Small waders with slender bills and long legs, found foraging in shallow waters along Sri Lanka's coasts
+                during migration.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 10 -->
+  <div class="modal fade" id="imageModal10" tabindex="-1" aria-labelledby="imageModalLabel10" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img src="https://footstepsinthegambia.com/wp-content/uploads/Royal-Tern-.webp"
+              class="card-img-top creative-img" alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Terns</h5>
+              <p class="card-text">
+                Graceful seabirds with slender bodies, forked tails, and sharp beaks, often seen diving for fish near
+                Sri Lanka's shores.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 11 -->
+  <div class="modal fade" id="imageModal11" tabindex="-1" aria-labelledby="imageModalLabel11" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img
+              src="https://static.wixstatic.com/media/991922_b6c0183af20846b5967feb4cad26b7b3~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/991922_b6c0183af20846b5967feb4cad26b7b3~mv2.jpg"
+              class="card-img-top creative-img" alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Ducks</h5>
+              <p class="card-text">
+                Waterfowl with broad bills and webbed feet, commonly found in Sri Lanka's lakes and wetlands, including
+                both resident and migratory species.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 12 -->
+  <div class="modal fade" id="imageModal12" tabindex="-1" aria-labelledby="imageModalLabel12" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img
+              src="https://www.worldbirdphotos.com/wp-content/uploads/2018/12/BSC18306a-Starling-Rosy-2-Bundala-NP-Sri-Lanka-Nov18-PH5_3104.jpg"
+              class="card-img-top creative-img" alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Rosy Starling</h5>
+              <p class="card-text">
+                A striking migratory bird with pinkish plumage and a black head, seen in flocks during winter in Sri
+                Lanka's dry zones.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 13 -->
+  <div class="modal fade" id="imageModal13" tabindex="-1" aria-labelledby="imageModalLabel13" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img
+            src="https://farm7.static.flickr.com/6004/5940560120_6a04383e2e_z.jpg"
+              class="card-img-top creative-img" alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Brahminy Myna</h5>
+              <p class="card-text">
+                A small bird with pale orange-brown plumage, a black crown, and a yellow bill, often found in gardens
+                and open woodlands in Sri Lanka.
               </p>
             </div>
           </div>

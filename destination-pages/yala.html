@@ -208,7 +208,7 @@
       font-size: 1rem;
       color: #555;
       font-style: italic;
-     
+
     }
 
     .close-icon {
@@ -301,24 +301,23 @@
       left: 0px;
       border-width: 30px;
     }
-   
 
-.image-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.71);
-  font-size: 20px;
-  font-weight: bold;
-  display: none;
-  text-wrap: nowrap;
-}
 
-.image-container:hover .image-text {
-  display: block;
-}
+    .image-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgba(255, 255, 255, 0.71);
+      font-size: 20px;
+      font-weight: bold;
+      display: none;
+      text-wrap: nowrap;
+    }
 
+    .image-container:hover .image-text {
+      display: block;
+    }
   </style>
 
 </head>
@@ -407,7 +406,10 @@
             <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Birds</h6>
             <h1 class="mb-3 text-">Best Bird Watching Sites in Sri Lanka, covered in our tour plans</h1>
             <p>
-                The best park in Sri Lanka for viewing mammals but rich with birds too. Yala characteristic of dry zone tropical thorn forest, Scrub jungles, brackish lagoons and riverine habitats. Raptors could often be seen. During the North- East monsoon the lagoons are visited by thousands of migrating waders, turns and water birds.            </p>
+              The best park in Sri Lanka for viewing mammals but rich with birds too. Yala characteristic of dry zone
+              tropical thorn forest, Scrub jungles, brackish lagoons and riverine habitats. Raptors could often be seen.
+              During the North- East monsoon the lagoons are visited by thousands of migrating waders, turns and water
+              birds. </p>
             <div class="row mb-4">
               <div class="col-6">
                 <img class="img-fluid"
@@ -435,47 +437,92 @@
         <script>
           const images = [
             {
-              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_NGwZSpDWwZVj7jl471UynIf0BJ57gxPcA&s",
+              src: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/85869861/320",
               alt: "Image 1",
               modalTarget: "#imageModal1"
             },
             {
-              src: "https://images.pexels.com/photos/4567894/pexels-photo-4567894.jpeg?auto=compress&cs=tinysrgb&w=600",
-              alt: "Image 2",
+              src: "https://lombokwildlifepark.com/wp-content/uploads/2022/08/whitebelliedseaeagle-1.jpg", alt: "Image 2",
               modalTarget: "#imageModal2"
             },
             {
-              src: "https://media-cdn.tripadvisor.com/media/photo-s/1b/42/02/db/the-sri-lanka-spurfowl.jpg",
-              alt: "Image 3",
+              src: "https://s3.amazonaws.com/media.jungledragon.com/images/2650/72435_small.JPG?AWSAccessKeyId=05GMT0V3GWVNE7GGM1R2&Expires=1736380810&Signature=7D1xbhbB%2BJWTJyFcfl%2Be4s4l2OU%3D", alt: "Image 3",
               modalTarget: "#imageModal3"
             },
             {
-              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ebTxtw1osTBEQhJbUn-xRSdH6RWEKU-kqg&s",
-              alt: "Image 4",
+              src: "https://live.staticflickr.com/4879/46211505282_d79e99ddfc_c.jpg", alt: "Image 4",
               modalTarget: "#imageModal4"
             },
             {
-              src: "https://live.staticflickr.com/65535/54016605899_e3008af9f2_h.jpg",
-              alt: "Image 5",
+              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3aDq893i79PtBR4BSrmxIh9s9p3QCFMJSuQ&s", alt: "Image 5",
               modalTarget: "#imageModal5"
             },
             {
-              src: "https://ceylonwildtours.com/wp-content/uploads/2022/01/Red-faced-Malkoha-is-in-its-Habitats.png",
-              alt: "Image 6",
+              src: "https://static.wixstatic.com/media/991922_ed281884612947468c0c240025efec16~mv2.jpg/v1/fill/w_520,h_346,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/991922_ed281884612947468c0c240025efec16~mv2.jpg", alt: "Image 6",
               modalTarget: "#imageModal6"
             },
             {
-              src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/8W0A7974.jpg/220px-8W0A7974.jpg",
-              alt: "Image 7",
+              src: "https://observation.org/media/photo/2923378.jpg", alt: "Image 7",
               modalTarget: "#imageModal7"
             },
             {
-              src: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lesser_yellownape_Ghatgarh%2C_Uttarakhand%2C_India_06.10.2014.jpg",
-              alt: "Image 8",
+              src: "https://blog.junglesafarirajajinationalpark.com/wp-content/uploads/2024/05/2-29-1024x683.jpg",
+               alt: "Image 8",
               modalTarget: "#imageModal8"
+            },
+            {
+              src:"https://live.staticflickr.com/5738/24040200895_83e4f3be86_b.jpg",
+              alt:"Image 9",
+              modalTarget: "#imageModal9"
+            },
+            {
+              src:"https://safariinsrilanka.com/wp-content/uploads/2023/06/bee-eaters-wilpattu-national-park.jpg",
+              alt:"Image 10",
+              modalTarget:"#imageModal10"
+            },
+            {
+              src:"https://s3.animalia.bio/animals/photos/full/original/brahminy-starling-28sturnia-pagodarum29-1.webp",
+              alt:"Image 11",
+              modalTarget:"#imageModal11"
+            },
+            {
+              src:"https://s3.animalia.bio/animals/photos/full/original/rosy-starling-adult-amsm3427rstar.webp",
+              alt:"Image 12",
+              modalTarget:"#imageModal12"
+            },
+            {
+              src:"https://cdn.pixabay.com/photo/2023/12/30/08/54/nest-8477649_1280.png",
+              alt:"Image 13",
+              modalTarget:"#imageModal13"
+            },
+            {
+              src:"https://birderbird.com/wp-content/uploads/2024/06/Pigeons-and-Doves.jpg",
+              alt:"Image 14",
+              modalTarget:"#imageModal14"
+            },
+            {
+              src:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYaaG6kcKQQvL6srsEcBEhvi7RheiS1gpexyvzHgQ7CABQ4WY5VRa8WS6G3eM4IVENLDzlOc2veb4hWyUHOzM6oHu9AbPInzuYnw2UmnOVr9mw11u4DF7Tehs73KQAB7nhi4H8uLqCTas/s1600/092A2573.jpg",
+              alt:"Image 15",
+              modalTarget:"#imageModal15"
+            },
+            {
+              src:"https://2.bp.blogspot.com/-n9ShUMFi6dA/Unh5-9Lb-DI/AAAAAAAABGg/Fs4l25a9Zew/s1600/Caspian-Tern.jpg",
+              alt:"Image 16",
+              modalTarget:"#imageModal16"
+            },
+            {
+              src:"https://assets.tikalanka.com/uploads/tika-tasters/_square/Birds_Culture_08.jpg",
+              alt:"Image 17",
+              modalTarget:"#imageModal17"
+            },
+            {
+              src:"https://2.bp.blogspot.com/-z1MVjB3GKrY/UU-UrLySVRI/AAAAAAAAE0c/QfwUZ3HCtpo/s1600/1-Limpkins%2B025.JPG",
+              alt:"Image 18",
+              modalTarget:"#imageModal18"
             }
+
           ];
-      
+
           images.forEach((image, index) => {
             document.write(`
               <div class="col-lg-3 col-md-4 col-xs-6 thumb">
@@ -493,10 +540,10 @@
           });
         </script>
       </div>
-      
+
     </div>
   </section>
-  
+
 
   <!-- Modal 1 -->
   <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModalLabel1" aria-hidden="true">
@@ -505,13 +552,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_NGwZSpDWwZVj7jl471UynIf0BJ57gxPcA&s"
+            <img 
+            src="https://www.shutterstock.com/editorial/image-editorial/M5T8Abw3M7T2Ia12NDk1NDk=/crested-serpent-eagle-battles-snake-440nw-9937447d.jpg"
               class="card-img-top creative-img" alt="Kitulgala Rain Forest">
             <div class="card-body">
-              <h5 class="card-title">Kitulgala Rain Forest</h5>
+              <h5 class="card-title">Crested serpent Eagle</h5>
               <p class="card-text">
-                A mid-sized coucal of lowland and mid-hill forest. Black plumage with purplish sheen, dark rufous wings, and pale, greenish bill. Found in the dense undergrowth of humid forest where it is very skulking and difficult to see. Heard more often than seen. Similar to Greater Coucal, but Green-billed Coucal is smaller in size with pale bill. Call a series of deep, double “boop-boop” notes, or a regular, upslurred “ker-chuip” or “chuip” rather like a stone dropping into water.
+                The **Crested Serpent Eagle** (*Spilornis cheela*) is a large, powerful eagle with a distinctive bushy crest and bold white spots on its rufous-brown underparts. Its striking appearance includes yellow lores and eyes, giving it a fierce look when alarmed. The bird is commonly found perched in wooded areas and has broad rounded wings with a wide black trailing edge. Its call is a 1-3 note scream often heard in the forest.
               </p>
             </div>
           </div>
@@ -526,11 +573,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://images.pexels.com/photos/4567894/pexels-photo-4567894.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top creative-img" alt="Creative Image 2">
+            <img
+              src="https://www.nationalparks.nsw.gov.au/-/media/npws/images/native-animal-profiles/white-bellied-sea-eagle-haliaeetus-leucogaster/white-bellied-sea-eagle-01.jpg"
+              class="card-img-top creative-img" alt="Creative Image 2">
             <div class="card-body">
-              <h5 class="card-title">Grey Hornbill</h5>
+              <h5 class="card-title">White Bellied Sea Eagle</h5>
               <p class="card-text">
-                Small hornbill with gray upperside and whitish underparts. Bill has no casque, and is pale in males, dark in females. In flight displays white outer tail and wingtips. Found in pairs and groups in forest and woodland, preferring drier areas. The only other hornbill in range, the larger Malabar Pied Hornbill, is black-and-white, and has a large casque on its bill. Song is an accelerating “kok-kok-kok” ending in a cackle; call a harsh “waa”.
+The White-bellied Sea Eagle (*Haliaeetus leucoryphus*) is a large bird of prey found in coastal and inland habitats across Sri Lanka. It has a distinctive white belly, dark wings, and a sharp, hooked beak. Often seen near water bodies like lakes, rivers, and coastal regions, this eagle preys on fish, small mammals, and birds. It is a rare and protected species in Sri Lanka, valued for its role in the ecosystem as a top predator. Its population is threatened due to habitat loss and disturbance.
               </p>
             </div>
           </div>
@@ -545,12 +594,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/252000551/900" class="card-img-top creative-img" alt="Creative Image 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDpkbQdFi1Y3L5J3fAmJjxChGAG2hWzWw7LQ&s"
+              class="card-img-top creative-img" alt="Creative Image 2">
             <div class="card-body">
-              <h5 class="card-title">Sri Lanka Spurfowl</h5>
+              <h5 class="card-title">Tank Eagle</h5>
               <p class="card-text">
-                Partridgelike bird with distinct sexual dimorphism. Males have striking white spots and streaks, red bill, face, and legs. Females are plain reddish-brown, unlike the streaked Sri Lanka Junglefowl female. Found in lowland and hill forests, mainly in the Wet Zone, occasionally in the Dry Zone. Call is a rising “ki-ki-ki-ki-ki-chikew.”
-                </p>
+The Tank Eagle is a well-known landmark in Sri Lanka, located in the Eastern Province. It is a large water reservoir situated near the historic city of Anuradhapura, known for its impressive design and significance in Sri Lanka's ancient hydraulic engineering. The tank, also referred to as "Eagle's Tank," is popular for its size and the scenic views surrounding it, attracting visitors who are interested in both nature and Sri Lanka's rich history.
+              </p>
             </div>
           </div>
         </div>
@@ -564,11 +614,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/361162991/480" class="card-img-top creative-img" alt="Sri Lanka Hanging Parrot ">
+            <img src="https://live.staticflickr.com/65535/7093100275_e7f4deba98_b.jpg"
+              class="card-img-top creative-img" alt="Sri Lanka Hanging Parrot ">
             <div class="card-body">
-              <h5 class="card-title">Sri Lanka Hanging Parrot </h5>
+              <h5 class="card-title">Changeable Hawk Eagle</h5>
               <p class="card-text">
-                A tiny, short-tailed, bright green parrot with a red bill and rump; males have a scarlet crown. Found in Sri Lanka's forests, it is easily identified by its size and tail. Calls include a metallic “zit-zit-zit” or a drawn-out “zeeet.”              </p>
+The Changeable Hawk Eagle (Nisaetus cirrhatus) is a bird of prey found in Sri Lanka, typically inhabiting forests and woodlands. Known for its striking plumage, the eagle displays a mix of brown and white feathers, often with a crest on its head. It is an opportunistic hunter, preying on small to medium-sized mammals, birds, and reptiles. The species is notable for its adaptability to various habitats and its distinctive, powerful flight. The Changeable Hawk Eagle is considered a relatively common species in Sri Lanka, though it is listed as near-threatened due to habitat loss.
+              </p>
             </div>
           </div>
         </div>
@@ -582,11 +634,12 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/60447814/original.jpg" class="card-img-top creative-img" alt="Yellow fronted Barbet">
+            <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/610827360/1200"
+              class="card-img-top creative-img" alt="Yellow fronted Barbet">
             <div class="card-body">
-              <h5 class="card-title">Yellow fronted Barbet</h5>
+              <h5 class="card-title">Black necked Storks</h5>
               <p class="card-text">
-                Largish green barbet with blue face, yellow forecrown and mustache, and speckled underparts. Found in forest canopies, mainly in the Wet Zone and locally in the intermediate zone. Distinguished by yellow forehead, blue face, and dappled belly. Song is a repetitive “ke-cheer,” with rolling “pup-pup-pup” calls.
+                The **Black-necked Stork** (*Ephippiorhynchus asiaticus*) is a large, striking wader with a distinctive black neck and head, contrasting with its white body and red legs. Found in wetlands and shallow waters across South Asia, including Sri Lanka, it feeds on fish, frogs, and other small aquatic creatures. Its graceful flight and elegant stature make it a remarkable sight in its natural habitat.
               </p>
             </div>
           </div>
@@ -601,11 +654,13 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://www.srilankabirdwatchingtours.com/images/birds-of-sri-lanka/red-faced-malkoha/red-faced-malkoha3.jpg" class="card-img-top creative-img" alt="Red faced Malkoha">
+            <img
+              src="https://live.staticflickr.com/65535/50180419856_bd44a615af_b.jpg"
+              class="card-img-top creative-img" alt="Red faced Malkoha">
             <div class="card-body">
-              <h5 class="card-title">Red faced Malkoha</h5>
+              <h5 class="card-title"> Painted Storke</h5>
               <p class="card-text">
-                Large, spectacular malkoha of moist lowland and mid-hill forest. Unmistakable with bright red face, yellowish bill, white belly and long, white-tipped tail. Found in the dense canopy of tall trees where it feeds on insects and small vertebrates. Normally found in pairs and often associates with mixed flocks usually led by Orange-billed Babblers. It can be hard to see despite its flashy appearance. Usually silent but does soft clucking and a call like static noise.
+                The **Painted Stork** (*Mycteria leucocephala*) is a large, striking wader bird with a distinctive combination of white, black, and pink plumage. It has a long, pointed bill and a bare, yellowish face. Often found in wetlands, it feeds on fish and small aquatic animals, using its bill to probe in shallow waters. Known for its graceful flight and impressive wingspan, the Painted Stork is a beautiful sight in its native habitats across the Indian subcontinent.
               </p>
             </div>
           </div>
@@ -620,11 +675,12 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://observation.org/media/photo/7750088.jpg" class="card-img-top creative-img" alt="Ashey headed Laughingthrush">
+            <img src="https://bcgforums.com/attachments/z9a_1608-jpg.74908/" class="card-img-top creative-img"
+              alt="Ashey headed Laughingthrush">
             <div class="card-body">
-              <h5 class="card-title">Ashey headed Laughingthrush</h5>
+              <h5 class="card-title">Lesser Adjutant</h5>
               <p class="card-text">
-                A medium-sized, rufous babbler with a gray hood, pale beady eye, buff throat patch, and black bill and legs. Found in small groups low in the understory or on the ground in wet forests, it can join mixed-species flocks. Its gray head, black bill and legs, and buff underside distinguish it from other babblers. It produces a variety of untidy vocalizations, including scratchy notes, whistles, squeals, and metallic calls.
+                The **Lesser Adjutant** (*Leptoptilos javanicus*) is a large wader bird found in South and Southeast Asia, including Sri Lanka. It has a distinctive appearance with a long, naked neck, large bill, and dark plumage. Its body is mainly gray, with white underparts and a yellow patch on its neck. Typically seen in wetlands, it feeds on fish, amphibians, and carrion. The bird is known for its impressive size and striking silhouette, often seen standing or wading in shallow waters.
               </p>
             </div>
           </div>
@@ -639,11 +695,214 @@
         <div class="modal-body">
           <div class="card creative-card">
             <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
-            <img src="https://live.staticflickr.com/4880/46872769361_704ed383fb_b.jpg" class="card-img-top creative-img" alt="Creative Image 2">
+            <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/142145611/1200" class="card-img-top creative-img"
+              alt="Creative Image 2">
             <div class="card-body">
-              <h5 class="card-title">With lesser Yellow napped</h5>
+              <h5 class="card-title">Sirkeer Malkoha</h5>
               <p class="card-text">
-                A medium-sized woodpecker with a colorful crest, featuring a bright yellow hindcrest, greenish body, and white-barred chest. Greater Yellownape is larger with an all-gray belly. Found in forested lowlands and foothills, it forages on trunks, branches, and the ground, sometimes joining mixed-species flocks. Its call sounds like a raptor's “pyeeeah.”
+                The **Sirkeer Malkoha** (*Phaenicophaeus leschenaulti*) is a striking bird found in the forests and woodlands of Sri Lanka and India. It has a long, dark tail, a glossy greenish-black body, and a distinctive red face with a white throat. Known for its secretive nature, it is often heard calling with a loud, harsh “kee-kee-kee” sound, but is seldom seen in the dense undergrowth. The Sirkeer Malkoha feeds primarily on insects and fruits.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal 9 -->
+   <div class="modal fade" id="imageModal9" tabindex="-1" aria-labelledby="imageModalLabel9" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img src="https://live.staticflickr.com/4510/36943942463_30bc789811_c.jpg" class="card-img-top creative-img"
+              alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Blue Faced Malkoha</h5>
+              <p class="card-text">
+                The **Blue-faced Malkoha** (*Phaenicophaeus viridis*) is a striking bird found in Sri Lanka and southern India. It has a distinctive blue face, a long, iridescent green tail, and a mix of gray and green plumage. This forest-dwelling species is often seen in the dense undergrowth, foraging for insects, fruits, and small reptiles. Known for its quiet, soft calls, it is an elusive and colorful bird in its tropical habitat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal 10 -->
+   <div class="modal fade" id="imageModal10" tabindex="-1" aria-labelledby="imageModalLabel10" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDGBFWxmQAY8k5z12BU-Mfd7nDZJWUkJBK_MU38I2sfXBiX4wQ5Pyr3vH1p60ML0A1q93aJkyyPawzYqu9KxRC0mypw_YuZRDMMQCPl5kI0TGiF_q5QnEIOQZu_mTddxgORO24GR00FVg/s1600/IMG_0212.JPG" class="card-img-top creative-img"
+              alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Green and Eurasian Bee eater</h5>
+              <p class="card-text">
+                The **Green Bee-eater** is a vibrant green bird with a long tail, found in South Asia. It hunts insects, especially bees, and has a distinctive black facial line.
+<br/>
+                The **Eurasian Bee-eater** is a colorful bird with green, yellow, and chestnut feathers. It catches insects in mid-flight and is found across Europe, Asia, and North Africa.  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal 11 -->
+   <div class="modal fade" id="imageModal11" tabindex="-1" aria-labelledby="imageModalLabel11" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Brahminy_starling_-_Vadodara_2021-06-22.jpg" class="card-img-top creative-img"
+              alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Brahmany Myna</h5>
+              <p class="card-text">
+                The **Brahminy Myna** (*Sturnia pagodarum*) is a striking bird with a bright orange-brown body, black wings, and a white patch on its shoulders. It has a distinct black head and a yellow beak. Commonly found in open woodlands, farmlands, and urban areas, it is a social bird often seen in large flocks. Known for its loud, varied calls, it is frequently seen foraging for food on the ground and around human settlements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal 12 -->
+   <div class="modal fade" id="imageModal12" tabindex="-1" aria-labelledby="imageModalLabel12" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img src="https://www.shutterstock.com/shutterstock/videos/1013188736/thumb/1.jpg?ip=x480" class="card-img-top creative-img"
+              alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Rosy Starting</h5>
+              <p class="card-text">
+                The **Rosy Starling** (*Pastor roseus*) is a medium-sized passerine bird with a striking appearance. The adult male has a rosy-pink body with a black head, wings, and tail, while the female is more subdued in color, with a brownish-gray body and pale underparts. These starlings are often seen in large flocks and are known for their gregarious nature, commonly found in open landscapes, urban areas, and agricultural fields. Their call is a harsh, grating sound, and they are typically seen foraging for insects and fruits.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal 13 -->
+   <div class="modal fade" id="imageModal13" tabindex="-1" aria-labelledby="imageModalLabel13" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1oI0-R7yHDK9mrAYN7sbwRuR1-e5G11s-13a-JJf1BIWs8LNVNgKljs-dACgXin475Dw&usqp=CAU" class="card-img-top creative-img"
+              alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Hoopoo Pee Fowl</h5>
+              <p class="card-text">
+                The **Indian Hoopoe** (*Upupa epops*), also known as the **Hoopoe Pee Fowl** in Sri Lanka, is a striking bird with a distinctive crest of feathers on its head. It has a unique combination of pinkish-brown plumage, a black-and-white striped wing pattern, and a long, curved bill used for probing the ground in search of insects. Known for its "trumpet-like" call, it is often found in open forests, grasslands, and urban areas across Sri Lanka.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal 14 -->
+   <div class="modal fade" id="imageModal14" tabindex="-1" aria-labelledby="imageModalLabel14" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img src="https://static.wixstatic.com/media/991922_cfd99094f0644f19abc6e19fcbd69484~mv2.jpg/v1/fill/w_520,h_292,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/991922_cfd99094f0644f19abc6e19fcbd69484~mv2.jpg" class="card-img-top creative-img"
+              alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Pigeons and Doves</h5>
+              <p class="card-text">
+                In Sri Lanka, **pigeons** and **doves** are commonly found in a variety of habitats, from forests to urban areas. The **Sri Lanka Pigeon** and **Sri Lanka's endemic **Yellow-eyed Pigeon** are notable species. These birds typically have soft, rounded bodies, with doves often featuring a graceful appearance and pigeons a more robust build. Both have distinctive cooing calls. They primarily feed on seeds, fruits, and grains, and are frequently seen in flocks or pairs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal 15 -->
+   <div class="modal fade" id="imageModal15" tabindex="-1" aria-labelledby="imageModalLabel15" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img src="https://static.wixstatic.com/media/991922_df69a69e2e3d4a71a076cbb410947672~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/991922_df69a69e2e3d4a71a076cbb410947672~mv2.jpg" class="card-img-top creative-img"
+              alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Parakeets</h5>
+              <p class="card-text">
+                In Sri Lanka, **parakeets** are commonly represented by the **Rose-ringed Parakeet** (*Psittacula krameri*), a vibrant green bird with a distinctive rose-colored ring around its neck. These parakeets are often seen in flocks, feeding on seeds, fruits, and nuts, and are known for their loud calls. They thrive in a variety of habitats, including forests, gardens, and urban areas across the island.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal 16 -->
+   <div class="modal fade" id="imageModal16" tabindex="-1" aria-labelledby="imageModalLabel16" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img src="https://nas-national-prod.s3.amazonaws.com/a1_3701_3_royal-terns_melissa_james_kk_breeding-adults.jpg" class="card-img-top creative-img"
+              alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Turns</h5>
+              <p class="card-text">
+                **Terns** in Sri Lanka are seabirds commonly found along the coastline, particularly in coastal wetlands and estuaries. They have slender bodies, long pointed wings, and sharp, slender bills. The most notable species are the **Little Tern**, **Caspian Tern**, and **Greater Crested Tern**. These birds are often seen hunting for fish, diving gracefully into the water. They are known for their high-pitched calls and migratory behavior, often seen in large flocks during breeding and non-breeding seasons.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal 17 -->
+   <div class="modal fade" id="imageModal17" tabindex="-1" aria-labelledby="imageModalLabel17" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img src="https://www.srilankansafari.com/images/bird-watchers-paradise/bird-watchers-paradise-17-nights-19.jpg" class="card-img-top creative-img"
+              alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Water birds</h5>
+              <p class="card-text">
+                Sri Lanka is home to a diverse range of water birds, including species that inhabit wetlands, lakes, rivers, and coastal areas. Notable water birds include the **Sri Lanka Heron**, **Purple Heron**, **Great Egret**, and **Painted Stork**, along with migratory species like the **Northern Pintail** and **Little Cormorant**. These birds are often found hunting for fish, amphibians, and invertebrates in shallow waters, and their vibrant plumage and graceful movements make them a striking feature of Sri Lanka’s aquatic landscapes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal 18 -->
+   <div class="modal fade" id="imageModal18" tabindex="-1" aria-labelledby="imageModalLabel18" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="card creative-card">
+            <span class="close-icon" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+            <img src="https://exploreyala.com/images/yala-national-park/birds-in-yala-national-park/whimbrel.jpg" class="card-img-top creative-img"
+              alt="Creative Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Waders</h5>
+              <p class="card-text">
+                Wader birds in Sri Lanka, including **sandpipers**, **plovers**, and **stilts**, are found along coastal wetlands and lagoons. With long legs and pointed bills, they forage for invertebrates and small fish in shallow waters. These migratory birds are often seen in flocks, with species like the **Common Sandpiper** and **Black-winged Stilt** feeding actively along the shores.
               </p>
             </div>
           </div>
