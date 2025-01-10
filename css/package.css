@@ -1,0 +1,225 @@
+.tour_dt2l h4{
+    text-align:center; 
+     }
+     .tour_dt2l h4{
+        text-align:center; 
+         }
+     .shadow_box{
+        box-shadow: 0px 4px 20px -3px rgb(22 36 62 / 15%);
+         }
+         .col_yellow{
+            color:#fbb03b!important; 
+             }
+             .a_tag1:hover{
+                color:#fbb03b!important;
+                 }
+                .a_tag1:focus{
+                color: #fbb03b!important;
+                 }
+                 .font-weight{
+                    font-weight: bold;
+                 }
+                 .button{
+                    transition: 0.3s;
+                    padding: 15px 36px 15px 36px;
+                    display: inline-block;
+                    font-size:16px;
+                    background:#63ab45;
+                    color:#fff;
+                    border-radius:5px;
+                    font-weight:bold;
+                    text-decoration: none;
+                     }
+                    
+                    .button:hover{
+                    background:#fbb03b!important; 
+                    color:#000!important;
+                     }
+                     .offer_1l {
+                        margin-top:8px;
+                        margin-bottom:8px;  
+                         }
+                         
+figure.effect-jazz figcaption::after,
+figure.effect-jazz img
+{
+-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+transition: opacity 0.35s, transform 0.35s;
+}
+.offer_1li1{
+    background:#45ab45d6; 
+     }
+
+figure.effect-jazz:hover img {
+-webkit-transform: scale3d(1.05,1.05,1);
+transform: scale3d(1.05,1.05,1);
+}
+.button_1{
+    transition: 0.3s;
+    padding: 15px 36px 15px 36px;
+    display: inline-block;
+    font-size:16px;
+    background:#fbb03b;
+    color:#000;
+    border-radius:5px;
+    font-weight:bold;
+     }
+     /* ---------------------------------------------- */
+  
+/*********************tour****************/
+.center_o {
+    background-image: url(../img/2.jpg);
+    background-position: center center;
+    background-size: cover;
+    }
+    .center_dt {
+    background-image: url(../img/3.jpg);
+    background-position: center center;
+    background-size: cover;
+    }
+    
+    
+    .accordion-button {
+    background:#29461c;
+    color:#fff; 
+    padding:8px 15px;
+    font-weight: bold;
+    border: 0;
+    font-size: 20px;
+    text-align: left;
+    }
+    .accordion-button:focus {
+    box-shadow: none;
+    border: none;
+    }
+    .accordion-button:not(.collapsed) {
+    background:#63ab45;
+    color:#fff;
+    padding:8px 15px;
+    }
+    .accordion-body {
+    padding: 20px;
+    background: #fff; 
+    }
+    .accordion-button::after {
+    width: auto;
+    height: auto;
+    content: "+";
+    font-size: 40px;
+    background-image: none;
+    font-weight: 100;
+    color: #fff;
+    transform: translateY(-4px);
+    }
+    .accordion-button:not(.collapsed)::after {
+    width: auto;
+    height: auto;
+    background-image: none;
+    content: "-";
+    font-size: 40px;
+    transform: translate(-5px, -4px);
+    transform: rotate(0deg);
+    }
+    .accordion-item{
+    border:none;
+    border-radius:0;
+    background:none;
+    border-bottom:1px solid #c4dfb9;
+    margin-bottom:10px;
+    }
+    
+    .tour_dt2r1 .nav-tabs .nav-link {
+    border: none;
+    padding: 12px 20px;
+    color: #000;
+    background: #fff;
+    transition: 0.3s;
+    border-radius: 0;
+    font-weight: bold;
+    }
+    .tour_dt2r1 .nav-tabs .nav-link:hover {
+    background: #63ab45;
+    color: #fff;
+    }
+    .tour_dt2r1 .nav-tabs .nav-link.active {
+    background: #63ab45;
+    color: #fff;
+    }
+    
+    .center_faq {
+    background-image: url(../img/52.jpg);
+    background-position: center center;
+    background-size: cover;
+    }
+    /*********************tour_end****************/
+    
+    
+    
+    @media screen and (max-width : 767px){
+    .tour_1l1 h4{
+    text-align:center; 
+     }
+    .tour_1r{
+    margin-top:15px; 
+     }
+    .tour_1r1{
+    text-align:center;  
+     }
+    .tour_dt1 .ps-0{
+    padding-left:12px!important; 
+     }
+    .tour_dt1 .pe-0{
+    padding-right:12px!important; 
+     }
+    .tour_dt1 img{
+    min-height:auto;
+     }
+    .tour_dt1r{
+    margin-top:15px; 
+     }
+    .tour_dt1l {
+    margin-top:10px;  
+     }
+    .tour_dt2l h4{
+    text-align:center; 
+     }
+    
+    .tour_dt2r{
+    margin-top:15px;  
+     }
+    .faq_1r{
+    margin-top:15px; 
+     }
+     }
+    
+    
+    @media (min-width:576px) and (max-width:767px) {
+    
+     }
+     
+    @media (min-width:768px) and (max-width:991px) {
+    .tour_1l .offer_1li1 h4{
+    font-size:16px;
+     }
+    .tour_1l .offer_1li1 h5{
+    font-size:14px;
+     }
+    .tour_1l .offer_1li1 h6{
+    font-size:12px;
+     }
+    .tour_1l .offer_1li1 .button_1{
+    padding:10px!important;
+    font-size:12px;
+     }
+     }
+    
+    @media (min-width:992px) and (max-width:1200px) {
+    
+     }
+    @media (min-width:1201px) and (max-width:1320px) {
+    
+     }
+    
+    
+    
+    
